@@ -1,0 +1,56 @@
+int32 *_SUB___UI_INIT_LONG_I=NULL;
+if(_SUB___UI_INIT_LONG_I==NULL){
+_SUB___UI_INIT_LONG_I=(int32*)mem_static_malloc(4);
+*_SUB___UI_INIT_LONG_I=0;
+}
+int16 pass107;
+int32 *_SUB___UI_INIT_LONG___UI_NEWID=NULL;
+if(_SUB___UI_INIT_LONG___UI_NEWID==NULL){
+_SUB___UI_INIT_LONG___UI_NEWID=(int32*)mem_static_malloc(4);
+*_SUB___UI_INIT_LONG___UI_NEWID=0;
+}
+int16 pass108;
+int16 pass109;
+int16 pass110;
+int16 pass111;
+int16 pass112;
+int32 pass113;
+int64 fornext_value115;
+int64 fornext_finalvalue115;
+int64 fornext_step115;
+uint8 fornext_step_negative115;
+int16 pass116;
+int16 pass117;
+int16 pass118;
+int16 pass119;
+int16 pass120;
+int32 pass121;
+int32 pass122;
+int16 pass123;
+int16 pass124;
+int16 pass125;
+int16 pass126;
+int16 pass127;
+int32 pass128;
+int32 pass129;
+int16 pass130;
+int16 pass131;
+int16 pass132;
+int16 pass133;
+int16 pass134;
+int32 pass135;
+int32 pass136;
+int16 pass137;
+int16 pass138;
+int16 pass139;
+int16 pass140;
+int16 pass141;
+int32 pass142;
+int32 pass143;
+int16 pass144;
+int16 pass145;
+int16 pass146;
+int16 pass147;
+int16 pass148;
+int32 pass149;
+int32 pass150;

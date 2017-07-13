@@ -1,0 +1,15 @@
+qbs *_FUNC___UI_IMAGEDATA_STRING___UI_IMAGEDATA=NULL;
+if (!_FUNC___UI_IMAGEDATA_STRING___UI_IMAGEDATA)_FUNC___UI_IMAGEDATA_STRING___UI_IMAGEDATA=qbs_new(0,0);
+qbs*oldstr793=NULL;
+if(_FUNC___UI_IMAGEDATA_STRING_FILE->tmp||_FUNC___UI_IMAGEDATA_STRING_FILE->fixed||_FUNC___UI_IMAGEDATA_STRING_FILE->readonly){
+oldstr793=_FUNC___UI_IMAGEDATA_STRING_FILE;
+if (oldstr793->cmem_descriptor){
+_FUNC___UI_IMAGEDATA_STRING_FILE=qbs_new_cmem(oldstr793->len,0);
+}else{
+_FUNC___UI_IMAGEDATA_STRING_FILE=qbs_new(oldstr793->len,0);
+}
+memcpy(_FUNC___UI_IMAGEDATA_STRING_FILE->chr,oldstr793->chr,oldstr793->len);
+}
+qbs *_FUNC___UI_IMAGEDATA_STRING_A=NULL;
+if (!_FUNC___UI_IMAGEDATA_STRING_A)_FUNC___UI_IMAGEDATA_STRING_A=qbs_new(0,0);
+static qbs *sc_794=qbs_new(0,0);

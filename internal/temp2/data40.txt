@@ -1,0 +1,19 @@
+int32 *_FUNC___UI_PRINTWIDTH_LONG___UI_PRINTWIDTH=NULL;
+if(_FUNC___UI_PRINTWIDTH_LONG___UI_PRINTWIDTH==NULL){
+_FUNC___UI_PRINTWIDTH_LONG___UI_PRINTWIDTH=(int32*)mem_static_malloc(4);
+*_FUNC___UI_PRINTWIDTH_LONG___UI_PRINTWIDTH=0;
+}
+qbs*oldstr636=NULL;
+if(_FUNC___UI_PRINTWIDTH_STRING_TEXT->tmp||_FUNC___UI_PRINTWIDTH_STRING_TEXT->fixed||_FUNC___UI_PRINTWIDTH_STRING_TEXT->readonly){
+oldstr636=_FUNC___UI_PRINTWIDTH_STRING_TEXT;
+if (oldstr636->cmem_descriptor){
+_FUNC___UI_PRINTWIDTH_STRING_TEXT=qbs_new_cmem(oldstr636->len,0);
+}else{
+_FUNC___UI_PRINTWIDTH_STRING_TEXT=qbs_new(oldstr636->len,0);
+}
+memcpy(_FUNC___UI_PRINTWIDTH_STRING_TEXT->chr,oldstr636->chr,oldstr636->len);
+}
+byte_element_struct *byte_element_637=NULL;
+if (!byte_element_637){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_637=(byte_element_struct*)(mem_static_pointer-12); else byte_element_637=(byte_element_struct*)mem_static_malloc(12);
+}

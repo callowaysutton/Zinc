@@ -1,0 +1,8 @@
+if (_FUNC___UI_DEFAULTCOLOR_ARRAY_ULONG_COLORS[2]&1){
+if (_FUNC___UI_DEFAULTCOLOR_ARRAY_ULONG_COLORS[2]&4){
+cmem_dynamic_free((uint8*)(_FUNC___UI_DEFAULTCOLOR_ARRAY_ULONG_COLORS[0]));
+}else{
+free((void*)(_FUNC___UI_DEFAULTCOLOR_ARRAY_ULONG_COLORS[0]));
+}
+}
+free_mem_lock( (mem_lock*)((ptrszint*)_FUNC___UI_DEFAULTCOLOR_ARRAY_ULONG_COLORS)[8] );

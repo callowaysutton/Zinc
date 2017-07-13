@@ -1,0 +1,18 @@
+qbs *_FUNC___UI_EMPTYMASK_STRING___UI_EMPTYMASK=NULL;
+if (!_FUNC___UI_EMPTYMASK_STRING___UI_EMPTYMASK)_FUNC___UI_EMPTYMASK_STRING___UI_EMPTYMASK=qbs_new(0,0);
+int32 *_FUNC___UI_EMPTYMASK_LONG_I=NULL;
+if(_FUNC___UI_EMPTYMASK_LONG_I==NULL){
+_FUNC___UI_EMPTYMASK_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC___UI_EMPTYMASK_LONG_I=0;
+}
+qbs *_FUNC___UI_EMPTYMASK_STRING_TEXT=NULL;
+if (!_FUNC___UI_EMPTYMASK_STRING_TEXT)_FUNC___UI_EMPTYMASK_STRING_TEXT=qbs_new(0,0);
+int64 fornext_value535;
+int64 fornext_finalvalue535;
+int64 fornext_step535;
+uint8 fornext_step_negative535;
+byte_element_struct *byte_element_536=NULL;
+if (!byte_element_536){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_536=(byte_element_struct*)(mem_static_pointer-12); else byte_element_536=(byte_element_struct*)mem_static_malloc(12);
+}
+static qbs *sc_537=qbs_new(0,0);

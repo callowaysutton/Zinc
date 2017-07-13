@@ -1,0 +1,13 @@
+if(oldstr610){
+if(oldstr610->fixed)qbs_set(oldstr610,_FUNC_REPLACE_STRING_TEMPTEXT);
+qbs_free(_FUNC_REPLACE_STRING_TEMPTEXT);
+}
+if(oldstr611){
+if(oldstr611->fixed)qbs_set(oldstr611,_FUNC_REPLACE_STRING_SUBSTRING);
+qbs_free(_FUNC_REPLACE_STRING_SUBSTRING);
+}
+if(oldstr612){
+if(oldstr612->fixed)qbs_set(oldstr612,_FUNC_REPLACE_STRING_NEWSTRING);
+qbs_free(_FUNC_REPLACE_STRING_NEWSTRING);
+}
+qbs_free(_FUNC_REPLACE_STRING_TEXT);

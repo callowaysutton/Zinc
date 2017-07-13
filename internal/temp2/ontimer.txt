@@ -1,0 +1,6 @@
+case 1:
+SUB___UI_DOEVENTS();
+break;
+case 2:
+SUB___UI_UPDATEDISPLAY();
+break;

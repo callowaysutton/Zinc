@@ -1,0 +1,5 @@
+if(oldstr579){
+if(oldstr579->fixed)qbs_set(oldstr579,_SUB_LOADIMAGE_STRING_FILE);
+qbs_free(_SUB_LOADIMAGE_STRING_FILE);
+}
+qbs_free(_SUB_LOADIMAGE_STRING_ERRORMESSAGE);

@@ -1,0 +1,5 @@
+if(oldstr538){
+if(oldstr538->fixed)qbs_set(oldstr538,_FUNC___UI_GETID_STRING_CONTROLNAME);
+qbs_free(_FUNC___UI_GETID_STRING_CONTROLNAME);
+}
+qbs_free(_FUNC___UI_GETID_STRING_CONTROLSEARCH);

@@ -1,0 +1,5 @@
+long double *_FUNC___UI_MAP_FLOAT___UI_MAP=NULL;
+if(_FUNC___UI_MAP_FLOAT___UI_MAP==NULL){
+_FUNC___UI_MAP_FLOAT___UI_MAP=(long double*)mem_static_malloc(32);
+*_FUNC___UI_MAP_FLOAT___UI_MAP=0;
+}

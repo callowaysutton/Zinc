@@ -1,0 +1,20 @@
+qbs *_FUNC_RAWTEXT_STRING_RAWTEXT=NULL;
+if (!_FUNC_RAWTEXT_STRING_RAWTEXT)_FUNC_RAWTEXT_STRING_RAWTEXT=qbs_new(0,0);
+qbs *_FUNC_RAWTEXT_STRING_T=NULL;
+if (!_FUNC_RAWTEXT_STRING_T)_FUNC_RAWTEXT_STRING_T=qbs_new(0,0);
+qbs *_FUNC_RAWTEXT_STRING_C=NULL;
+if (!_FUNC_RAWTEXT_STRING_C)_FUNC_RAWTEXT_STRING_C=qbs_new(0,0);
+int16 *_FUNC_RAWTEXT_INTEGER_I=NULL;
+if(_FUNC_RAWTEXT_INTEGER_I==NULL){
+_FUNC_RAWTEXT_INTEGER_I=(int16*)mem_static_malloc(2);
+*_FUNC_RAWTEXT_INTEGER_I=0;
+}
+int32 fornext_value531;
+int32 fornext_finalvalue531;
+int32 fornext_step531;
+uint8 fornext_step_negative531;
+byte_element_struct *byte_element_532=NULL;
+if (!byte_element_532){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_532=(byte_element_struct*)(mem_static_pointer-12); else byte_element_532=(byte_element_struct*)mem_static_malloc(12);
+}
+static qbs *sc_533=qbs_new(0,0);

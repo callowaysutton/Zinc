@@ -1,0 +1,14 @@
+float *_FUNC___UI_GETFONTID_SINGLE___UI_GETFONTID=NULL;
+if(_FUNC___UI_GETFONTID_SINGLE___UI_GETFONTID==NULL){
+_FUNC___UI_GETFONTID_SINGLE___UI_GETFONTID=(float*)mem_static_malloc(4);
+*_FUNC___UI_GETFONTID_SINGLE___UI_GETFONTID=0;
+}
+int32 *_FUNC___UI_GETFONTID_LONG_I=NULL;
+if(_FUNC___UI_GETFONTID_LONG_I==NULL){
+_FUNC___UI_GETFONTID_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC___UI_GETFONTID_LONG_I=0;
+}
+int64 fornext_value542;
+int64 fornext_finalvalue542;
+int64 fornext_step542;
+uint8 fornext_step_negative542;

@@ -1,0 +1,119 @@
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_PREVDEST=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_PREVDEST==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_PREVDEST=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_PREVDEST=0;
+}
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONINDENT=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONINDENT==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONINDENT=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONINDENT=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_I=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_I==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_I=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_I=0;
+}
+qbs *_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION=NULL;
+if (!_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION)_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION=qbs_new(0,0);
+byte_element_struct *byte_element_721=NULL;
+if (!byte_element_721){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_721=(byte_element_struct*)(mem_static_pointer-12); else byte_element_721=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 pass722;
+qbs *_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT=NULL;
+if (!_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT)_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT=qbs_new(0,0);
+byte_element_struct *byte_element_723=NULL;
+if (!byte_element_723){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_723=(byte_element_struct*)(mem_static_pointer-12); else byte_element_723=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_724=NULL;
+if (!byte_element_724){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_724=(byte_element_struct*)(mem_static_pointer-12); else byte_element_724=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_725=NULL;
+if (!byte_element_725){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_725=(byte_element_struct*)(mem_static_pointer-12); else byte_element_725=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 pass726;
+int16 pass727;
+int16 pass728;
+static qbs *sc_729=qbs_new(0,0);
+byte_element_struct *byte_element_730=NULL;
+if (!byte_element_730){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_730=(byte_element_struct*)(mem_static_pointer-12); else byte_element_730=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 pass731;
+byte_element_struct *byte_element_732=NULL;
+if (!byte_element_732){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_732=(byte_element_struct*)(mem_static_pointer-12); else byte_element_732=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 pass733;
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_THISLINE=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_THISLINE==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_THISLINE=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_THISLINE=0;
+}
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_THISTOP=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_THISTOP==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_THISTOP=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_THISTOP=0;
+}
+qbs *_SUB___UI_DRAWTEXTBOX_STRING_TEMPLINE=NULL;
+if (!_SUB___UI_DRAWTEXTBOX_STRING_TEMPLINE)_SUB___UI_DRAWTEXTBOX_STRING_TEMPLINE=qbs_new(0,0);
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_TOTALLINES=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_TOTALLINES==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_TOTALLINES=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_TOTALLINES=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_THISLINESTART=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_THISLINESTART==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_THISLINESTART=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_THISLINESTART=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_S1=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_S1==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_S1=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_S1=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_S2=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_S2==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_S2=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_S2=0;
+}
+int16 pass734;
+int16 pass735;
+byte_element_struct *byte_element_736=NULL;
+if (!byte_element_736){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_736=(byte_element_struct*)(mem_static_pointer-12); else byte_element_736=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE=0;
+}
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_TEXTTOP=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_TEXTTOP==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_TEXTTOP=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_TEXTTOP=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_FINDSEP=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_FINDSEP==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_FINDSEP=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_FINDSEP=0;
+}
+int32 *_SUB___UI_DRAWTEXTBOX_LONG_FINDLF=NULL;
+if(_SUB___UI_DRAWTEXTBOX_LONG_FINDLF==NULL){
+_SUB___UI_DRAWTEXTBOX_LONG_FINDLF=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTEXTBOX_LONG_FINDLF=0;
+}
+int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT=NULL;
+if(_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT==NULL){
+_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT=0;
+}
+int64 fornext_value739;
+int64 fornext_finalvalue739;
+int64 fornext_step739;
+uint8 fornext_step_negative739;
+int8 pass740;
+int8 pass741;

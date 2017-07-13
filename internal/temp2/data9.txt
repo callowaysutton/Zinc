@@ -1,0 +1,34 @@
+qbs *_FUNC___UI_MASKTOTEXT_STRING___UI_MASKTOTEXT=NULL;
+if (!_FUNC___UI_MASKTOTEXT_STRING___UI_MASKTOTEXT)_FUNC___UI_MASKTOTEXT_STRING___UI_MASKTOTEXT=qbs_new(0,0);
+int32 *_FUNC___UI_MASKTOTEXT_LONG_I=NULL;
+if(_FUNC___UI_MASKTOTEXT_LONG_I==NULL){
+_FUNC___UI_MASKTOTEXT_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC___UI_MASKTOTEXT_LONG_I=0;
+}
+qbs *_FUNC___UI_MASKTOTEXT_STRING_TEXT=NULL;
+if (!_FUNC___UI_MASKTOTEXT_STRING_TEXT)_FUNC___UI_MASKTOTEXT_STRING_TEXT=qbs_new(0,0);
+byte_element_struct *byte_element_522=NULL;
+if (!byte_element_522){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_522=(byte_element_struct*)(mem_static_pointer-12); else byte_element_522=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_523=NULL;
+if (!byte_element_523){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_523=(byte_element_struct*)(mem_static_pointer-12); else byte_element_523=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_524=NULL;
+if (!byte_element_524){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_524=(byte_element_struct*)(mem_static_pointer-12); else byte_element_524=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_525=NULL;
+if (!byte_element_525){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_525=(byte_element_struct*)(mem_static_pointer-12); else byte_element_525=(byte_element_struct*)mem_static_malloc(12);
+}
+int64 fornext_value527;
+int64 fornext_finalvalue527;
+int64 fornext_step527;
+uint8 fornext_step_negative527;
+byte_element_struct *byte_element_528=NULL;
+if (!byte_element_528){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_528=(byte_element_struct*)(mem_static_pointer-12); else byte_element_528=(byte_element_struct*)mem_static_malloc(12);
+}
+static qbs *sc_529=qbs_new(0,0);

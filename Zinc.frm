@@ -7,7 +7,7 @@ SUB __UI_LoadForm
     $RESIZE:ON
     DIM __UI_NewID AS LONG
 
-    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 1366, 705, 0, 0, 0)
+    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 300, 300, 0, 0, 0)
     SetCaption __UI_NewID, "Zinc 0.0.2"
     Control(__UI_NewID).Font = SetFont("segoeui.ttf", 12, "")
     Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
@@ -227,6 +227,11 @@ SUB __UI_LoadForm
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "ControlBT", 80, 23, 133, 12, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Control"
+    Control(__UI_NewID).ForeColor = _RGB32(255, 125, 60)
+    Control(__UI_NewID).BackColor = _RGB32(255, 125, 60)
+    Control(__UI_NewID).SelectedForeColor = _RGB32(255, 170, 60)
+    Control(__UI_NewID).SelectedBackColor = _RGB32(255, 170, 60)
+    Control(__UI_NewID).BorderColor = _RGB32(255, 170, 60)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "LooksBT", 80, 23, 26, 46, __UI_GetID("Frame1"))

@@ -1,0 +1,4 @@
+if(oldstr636){
+if(oldstr636->fixed)qbs_set(oldstr636,_FUNC___UI_PRINTWIDTH_STRING_TEXT);
+qbs_free(_FUNC___UI_PRINTWIDTH_STRING_TEXT);
+}

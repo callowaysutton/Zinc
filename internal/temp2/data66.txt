@@ -1,0 +1,26 @@
+int32 *_SUB___UI_DRAWTRACKBAR_LONG_PREVDEST=NULL;
+if(_SUB___UI_DRAWTRACKBAR_LONG_PREVDEST==NULL){
+_SUB___UI_DRAWTRACKBAR_LONG_PREVDEST=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTRACKBAR_LONG_PREVDEST=0;
+}
+int32 *_SUB___UI_DRAWTRACKBAR_LONG_I=NULL;
+if(_SUB___UI_DRAWTRACKBAR_LONG_I==NULL){
+_SUB___UI_DRAWTRACKBAR_LONG_I=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWTRACKBAR_LONG_I=0;
+}
+int8 *_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE=NULL;
+if(_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE==NULL){
+_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE=(int8*)mem_static_malloc(1);
+*_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE=0;
+}
+uint32 pass712;
+int16 pass713;
+int64 fornext_value715;
+int64 fornext_finalvalue715;
+int64 fornext_step715;
+uint8 fornext_step_negative715;
+long double pass716;
+long double pass717;
+long double pass718;
+long double pass719;
+long double pass720;
