@@ -1,0 +1,29 @@
+qbs*oldstr3603=NULL;
+if(_SUB_ARYADDSTR_STRING_VALUE->tmp||_SUB_ARYADDSTR_STRING_VALUE->fixed||_SUB_ARYADDSTR_STRING_VALUE->readonly){
+oldstr3603=_SUB_ARYADDSTR_STRING_VALUE;
+if (oldstr3603->cmem_descriptor){
+_SUB_ARYADDSTR_STRING_VALUE=qbs_new_cmem(oldstr3603->len,0);
+}else{
+_SUB_ARYADDSTR_STRING_VALUE=qbs_new(oldstr3603->len,0);
+}
+memcpy(_SUB_ARYADDSTR_STRING_VALUE->chr,oldstr3603->chr,oldstr3603->len);
+}
+byte_element_struct *byte_element_3604=NULL;
+if (!byte_element_3604){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3604=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3604=(byte_element_struct*)mem_static_malloc(12);
+}
+int32 *_SUB_ARYADDSTR_LONG_INDEX=NULL;
+if(_SUB_ARYADDSTR_LONG_INDEX==NULL){
+_SUB_ARYADDSTR_LONG_INDEX=(int32*)mem_static_malloc(4);
+*_SUB_ARYADDSTR_LONG_INDEX=0;
+}
+int32 *_SUB_ARYADDSTR_LONG_LASTINDEX=NULL;
+if(_SUB_ARYADDSTR_LONG_LASTINDEX==NULL){
+_SUB_ARYADDSTR_LONG_LASTINDEX=(int32*)mem_static_malloc(4);
+*_SUB_ARYADDSTR_LONG_LASTINDEX=0;
+}
+int32 *_SUB_ARYADDSTR_LONG_ARYNEWSTR=NULL;
+if(_SUB_ARYADDSTR_LONG_ARYNEWSTR==NULL){
+_SUB_ARYADDSTR_LONG_ARYNEWSTR=(int32*)mem_static_malloc(4);
+*_SUB_ARYADDSTR_LONG_ARYNEWSTR=0;
+}
