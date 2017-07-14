@@ -43,276 +43,276 @@ SUB __UI_BeforeUnload
 END SUB
 
 SUB __UI_Click (id AS LONG)
-SELECT CASE id
-    CASE NewProjectWindow
+    SELECT CASE id
+        CASE NewProjectWindow
 
-    CASE Frame1
+        CASE Frame1
 
-    CASE Label1
+        CASE Label1
 
-    CASE TextBox1
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE Label2
+        CASE Label2
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_MouseEnter (id AS LONG)
-SELECT CASE id
-    CASE NewProjectWindow
+    SELECT CASE id
+        CASE NewProjectWindow
 
-    CASE Frame1
+        CASE Frame1
 
-    CASE Label1
+        CASE Label1
 
-    CASE TextBox1
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE Label2
+        CASE Label2
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
+run "..\..\Zinc.exe"
+        CASE LicenseButton
 
-    CASE LicenseButton
-
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_MouseLeave (id AS LONG)
-SELECT CASE id
-    CASE NewProjectWindow
+    SELECT CASE id
+        CASE NewProjectWindow
 
-    CASE Frame1
+        CASE Frame1
 
-    CASE Label1
+        CASE Label1
 
-    CASE TextBox1
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE Label2
+        CASE Label2
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_FocusIn (id AS LONG)
-SELECT CASE id
-    CASE TextBox1
+    SELECT CASE id
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_FocusOut (id AS LONG)
-SELECT CASE id
-    CASE TextBox1
+    SELECT CASE id
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_MouseDown (id AS LONG)
-SELECT CASE id
-    CASE NewProjectWindow
+    SELECT CASE id
+        CASE NewProjectWindow
 
-    CASE Frame1
+        CASE Frame1
 
-    CASE Label1
+        CASE Label1
 
-    CASE TextBox1
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE Label2
+        CASE Label2
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
-        STOP
-    CASE LicenseButton
+        CASE CancelButton
+            STOP
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_MouseUp (id AS LONG)
-SELECT CASE id
-    CASE NewProjectWindow
+    SELECT CASE id
+        CASE NewProjectWindow
 
-    CASE Frame1
+        CASE Frame1
 
-    CASE Label1
+        CASE Label1
 
-    CASE TextBox1
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE Label2
+        CASE Label2
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_KeyPress (id AS LONG)
-SELECT CASE id
-    CASE TextBox1
+    SELECT CASE id
+        CASE TextBox1
 
-    CASE Button1
+        CASE Button1
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE LicenseRadio
+        CASE LicenseRadio
 
-    CASE PublicRadio
+        CASE PublicRadio
 
-    CASE LicenseList
+        CASE LicenseList
 
-    CASE CheckBoxEnc
+        CASE CheckBoxEnc
 
-    CASE encryptInput
+        CASE encryptInput
 
-    CASE Create
+        CASE Create
 
-    CASE CancelButton
+        CASE CancelButton
 
-    CASE LicenseButton
+        CASE LicenseButton
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_TextChanged (id AS LONG)
-SELECT CASE id
-    CASE TextBox1
+    SELECT CASE id
+        CASE TextBox1
 
-    CASE TextBox2
+        CASE TextBox2
 
-    CASE encryptInput
+        CASE encryptInput
 
-END SELECT
+    END SELECT
 END SUB
 
 SUB __UI_ValueChanged (id AS LONG)
-SELECT CASE id
-    CASE LicenseList
+    SELECT CASE id
+        CASE LicenseList
 
-END SELECT
+    END SELECT
 END SUB
 

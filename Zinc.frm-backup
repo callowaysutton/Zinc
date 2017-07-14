@@ -4,10 +4,9 @@
 '-----------------------------------------------------------
 SUB __UI_LoadForm
 
-    $RESIZE:ON
     DIM __UI_NewID AS LONG
 
-    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 300, 300, 0, 0, 0)
+    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 1366, 705, 0, 0, 0)
     SetCaption __UI_NewID, "Zinc 0.0.2"
     Control(__UI_NewID).Font = SetFont("segoeui.ttf", 12, "")
     Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
@@ -15,7 +14,6 @@ SUB __UI_LoadForm
     Control(__UI_NewID).SelectedBackColor = _RGB32(155, 147, 158)
     Control(__UI_NewID).BorderColor = _RGB32(0, 0, 0)
     Control(__UI_NewID).CenteredWindow = True
-    Control(__UI_NewID).CanResize = True
     Control(__UI_NewID).Encoding = 1252
 
     __UI_NewID = __UI_NewControl(__UI_Type_MenuBar, "FileMenu", 34, 22, 8, 0, 0)
@@ -365,5 +363,8 @@ SUB __UI_AssignIDs
     PictureBox1 = __UI_GetID("PictureBox1")
     SpriteCaption = __UI_GetID("SpriteCaption")
     MenuItem31 = __UI_GetID("MenuItem31")
+    Label1 = __UI_GetID("Label1")
+END SUB
+MenuItem31")
     Label1 = __UI_GetID("Label1")
 END SUB

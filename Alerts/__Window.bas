@@ -4,13 +4,15 @@
 '-----------------------------------------------------------
 
 ': Controls' IDs: ------------------------------------------------------------------
-DIM SHARED NewZincWindow AS LONG
+DIM SHARED __Window AS LONG
+DIM SHARED SaveButton AS LONG
+DIM SHARED No AS LONG
 DIM SHARED Label1 AS LONG
 
 ': External modules: ---------------------------------------------------------------
 '$INCLUDE:'InForm\InForm.ui'
 '$INCLUDE:'InForm\xp.uitheme'
-'$INCLUDE:'NewZincWindow.frm'
+'$INCLUDE:'__Window.frm'
 
 ': Event procedures: ---------------------------------------------------------------
 SUB __UI_BeforeInit
@@ -30,72 +32,104 @@ SUB __UI_BeforeUnload
 END SUB
 
 SUB __UI_Click (id AS LONG)
-    SELECT CASE id
-        CASE NewZincWindow
+SELECT CASE id
+    CASE __Window
 
-        CASE Label1
+    CASE SaveButton
+run "save.bat"
+    CASE No
+        STOP
+    CASE Label1
 
-    END SELECT
+END SELECT
 END SUB
 
 SUB __UI_MouseEnter (id AS LONG)
-    SELECT CASE id
-        CASE NewZincWindow
+SELECT CASE id
+    CASE __Window
 
-        CASE Label1
+    CASE SaveButton
 
-    END SELECT
+    CASE No
+
+    CASE Label1
+
+END SELECT
 END SUB
 
 SUB __UI_MouseLeave (id AS LONG)
-    SELECT CASE id
-        CASE NewZincWindow
+SELECT CASE id
+    CASE __Window
 
-        CASE Label1
+    CASE SaveButton
 
-    END SELECT
+    CASE No
+
+    CASE Label1
+
+END SELECT
 END SUB
 
 SUB __UI_FocusIn (id AS LONG)
-    SELECT CASE id
-    END SELECT
+SELECT CASE id
+    CASE SaveButton
+
+    CASE No
+
+END SELECT
 END SUB
 
 SUB __UI_FocusOut (id AS LONG)
-    SELECT CASE id
-    END SELECT
+SELECT CASE id
+    CASE SaveButton
+
+    CASE No
+
+END SELECT
 END SUB
 
 SUB __UI_MouseDown (id AS LONG)
-    SELECT CASE id
-        CASE NewZincWindow
+SELECT CASE id
+    CASE __Window
 
-        CASE Label1
+    CASE SaveButton
 
-    END SELECT
+    CASE No
+
+    CASE Label1
+
+END SELECT
 END SUB
 
 SUB __UI_MouseUp (id AS LONG)
-    SELECT CASE id
-        CASE NewZincWindow
+SELECT CASE id
+    CASE __Window
 
-        CASE Label1
+    CASE SaveButton
 
-    END SELECT
+    CASE No
+
+    CASE Label1
+
+END SELECT
 END SUB
 
 SUB __UI_KeyPress (id AS LONG)
-    SELECT CASE id
-    END SELECT
+SELECT CASE id
+    CASE SaveButton
+
+    CASE No
+
+END SELECT
 END SUB
 
 SUB __UI_TextChanged (id AS LONG)
-    SELECT CASE id
-    END SELECT
+SELECT CASE id
+END SELECT
 END SUB
 
 SUB __UI_ValueChanged (id AS LONG)
-    SELECT CASE id
-    END SELECT
+SELECT CASE id
+END SELECT
 END SUB
 

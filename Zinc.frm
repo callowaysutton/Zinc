@@ -4,18 +4,15 @@
 '-----------------------------------------------------------
 SUB __UI_LoadForm
 
-    $RESIZE:ON
     DIM __UI_NewID AS LONG
 
-    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 300, 300, 0, 0, 0)
+    __UI_NewID = __UI_NewControl(__UI_Type_Form, "Zinc", 1366, 705, 0, 0, 0)
     SetCaption __UI_NewID, "Zinc 0.0.2"
     Control(__UI_NewID).Font = SetFont("segoeui.ttf", 12, "")
-    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).BackColor = _RGB32(121, 121, 126)
     Control(__UI_NewID).SelectedBackColor = _RGB32(155, 147, 158)
     Control(__UI_NewID).BorderColor = _RGB32(0, 0, 0)
     Control(__UI_NewID).CenteredWindow = True
-    Control(__UI_NewID).CanResize = True
     Control(__UI_NewID).Encoding = 1252
 
     __UI_NewID = __UI_NewControl(__UI_Type_MenuBar, "FileMenu", 34, 22, 8, 0, 0)
@@ -37,21 +34,25 @@ SUB __UI_LoadForm
     SetCaption __UI_NewID, "Help"
 
     __UI_NewID = __UI_NewControl(__UI_Type_Frame, "Frame1", 230, 259, 15, 39, 0)
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).BackStyle = __UI_Transparent
     Control(__UI_NewID).HasBorder = True
     Control(__UI_NewID).Value = 14
 
     __UI_NewID = __UI_NewControl(__UI_Type_Frame, "CommandsPallete", 230, 382, 15, 306, 0)
     SetCaption __UI_NewID, "Commands Pallete"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).BackStyle = __UI_Transparent
     Control(__UI_NewID).HasBorder = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Frame, "Sprite", 549, 150, 264, 39, 0)
     SetCaption __UI_NewID, "Sprite"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).HasBorder = True
     Control(__UI_NewID).Value = 2
 
     __UI_NewID = __UI_NewControl(__UI_Type_Frame, "Scripting", 549, 490, 264, 198, 0)
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).BackStyle = __UI_Transparent
     Control(__UI_NewID).HasBorder = True
     Control(__UI_NewID).Padding = 50
@@ -60,7 +61,6 @@ SUB __UI_LoadForm
     SetCaption __UI_NewID, "New"
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
-    Control(__UI_NewID).Disabled = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "FileMenuOpen", 73, 20, 0, 24, __UI_GetID("FileMenu"))
     SetCaption __UI_NewID, "Open"
@@ -135,33 +135,35 @@ SUB __UI_LoadForm
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
     Control(__UI_NewID).Disabled = True
 
-    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuMotorBlocks", 128, 20, 0, 4, __UI_GetID("SettingsMenu"))
-    SetCaption __UI_NewID, "[ ] Motor Blocks"
+    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuMotorBlocks", 114, 20, 0, 4, __UI_GetID("SettingsMenu"))
+    SetCaption __UI_NewID, "Motor Blocks"
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
     Control(__UI_NewID).Disabled = True
 
-    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuCompatabiltyMode", 164, 20, 0, 24, __UI_GetID("SettingsMenu"))
-    SetCaption __UI_NewID, "[ ] Compatabilty Mode"
+    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuCompatabiltyMode", 150, 20, 0, 24, __UI_GetID("SettingsMenu"))
+    SetCaption __UI_NewID, "Compatabilty Mode"
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
     Control(__UI_NewID).Disabled = True
 
-    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuStartWhenOpened", 170, 20, 0, 44, __UI_GetID("SettingsMenu"))
-    SetCaption __UI_NewID, "[ ] Start When Opened..."
+    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuStartWhenOpened", 156, 20, 0, 44, __UI_GetID("SettingsMenu"))
+    SetCaption __UI_NewID, "Start When Opened..."
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
 
-    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuMalwareProtection", 163, 20, 0, 64, __UI_GetID("SettingsMenu"))
-    SetCaption __UI_NewID, "[*] Malware Protection"
+    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuMalwareProtection", 147, 20, 0, 64, __UI_GetID("SettingsMenu"))
+    SetCaption __UI_NewID, "Malware Protection"
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
+    Control(__UI_NewID).Value = -1
     Control(__UI_NewID).Disabled = True
 
-    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuSubcatagories", 148, 20, 0, 84, __UI_GetID("SettingsMenu"))
-    SetCaption __UI_NewID, "[*] Subcatagories...-"
+    __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuSubcatagories", 132, 20, 0, 84, __UI_GetID("SettingsMenu"))
+    SetCaption __UI_NewID, "Subcatagories...-"
     Control(__UI_NewID).ForeColor = _RGB32(39, 0, 255)
     Control(__UI_NewID).BackColor = _RGB32(73, 35, 129)
+    Control(__UI_NewID).Value = -1
     Control(__UI_NewID).Disabled = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "SettingsMenuHostMesh", 101, 20, 0, 111, __UI_GetID("SettingsMenu"))
@@ -236,70 +238,86 @@ SUB __UI_LoadForm
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "LooksBT", 80, 23, 26, 46, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Looks"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "SensingBT", 80, 23, 133, 46, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Sensing"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "StringsBT", 80, 23, 26, 82, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Strings"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "OperatorsBT", 80, 23, 133, 82, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Operators"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "SoundBT", 80, 23, 26, 116, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Sound"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "PenBT", 80, 23, 133, 116, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Pen"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "DataBT", 80, 23, 26, 154, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Data"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "ObjectsBT", 80, 23, 133, 154, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Objects"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "FilesBT", 80, 23, 26, 189, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Files"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "ConnectBT", 80, 23, 133, 189, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Connect"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "ProgramBT", 80, 23, 26, 224, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "Program"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Button, "MoreBT", 80, 23, 133, 224, __UI_GetID("Frame1"))
     SetCaption __UI_NewID, "More"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_PictureBox, "PictureBox1", 98, 104, 35, 20, __UI_GetID("Sprite"))
     Control(__UI_NewID).Stretch = True
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).HasBorder = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_TextBox, "SpriteCaption", 120, 23, 263, 101, __UI_GetID("Sprite"))
     SetCaption __UI_NewID, "Sprite"
     ToolTip(__UI_NewID) = "reaname the sprite"
     Text(__UI_NewID) = "Sprite"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).HasBorder = True
     Control(__UI_NewID).CanHaveFocus = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_MenuItem, "MenuItem31", 111, 20, 0, 185, __UI_GetID("FileMenu"))
     SetCaption __UI_NewID, "MenuItem31"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).Disabled = True
     Control(__UI_NewID).Hidden = True
 
     __UI_NewID = __UI_NewControl(__UI_Type_Label, "Label1", 150, 23, 1218, 1, 0)
     SetCaption __UI_NewID, "Zinc 0.0.2 ALPHA"
+    Control(__UI_NewID).ForeColor = _RGB32(0, 0, 9)
     Control(__UI_NewID).HasBorder = True
     Control(__UI_NewID).Align = __UI_Center
     Control(__UI_NewID).VAlign = __UI_Middle
