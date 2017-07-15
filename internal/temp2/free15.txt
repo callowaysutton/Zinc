@@ -1,5 +1,5 @@
-if(oldstr554){
-if(oldstr554->fixed)qbs_set(oldstr554,_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME);
+if(oldstr2781){
+if(oldstr2781->fixed)qbs_set(oldstr2781,_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME);
 qbs_free(_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME);
 }
 qbs_free(_FUNC___UI_NEWCONTROL_STRING_TEMP);

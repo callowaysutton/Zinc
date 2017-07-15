@@ -7,12 +7,12 @@ _FUNC___UI_EMPTYMASK_LONG_I=(int32*)mem_static_malloc(4);
 }
 qbs *_FUNC___UI_EMPTYMASK_STRING_TEXT=NULL;
 if (!_FUNC___UI_EMPTYMASK_STRING_TEXT)_FUNC___UI_EMPTYMASK_STRING_TEXT=qbs_new(0,0);
-int64 fornext_value535;
-int64 fornext_finalvalue535;
-int64 fornext_step535;
-uint8 fornext_step_negative535;
-byte_element_struct *byte_element_536=NULL;
-if (!byte_element_536){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_536=(byte_element_struct*)(mem_static_pointer-12); else byte_element_536=(byte_element_struct*)mem_static_malloc(12);
+int64 fornext_value2762;
+int64 fornext_finalvalue2762;
+int64 fornext_step2762;
+uint8 fornext_step_negative2762;
+byte_element_struct *byte_element_2763=NULL;
+if (!byte_element_2763){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2763=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2763=(byte_element_struct*)mem_static_malloc(12);
 }
-static qbs *sc_537=qbs_new(0,0);
+static qbs *sc_2764=qbs_new(0,0);

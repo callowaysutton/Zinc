@@ -1,8 +1,8 @@
-if(oldstr654){
-if(oldstr654->fixed)qbs_set(oldstr654,_FUNC_MESSAGEBOX_STRING_MESSAGE);
+if(oldstr2881){
+if(oldstr2881->fixed)qbs_set(oldstr2881,_FUNC_MESSAGEBOX_STRING_MESSAGE);
 qbs_free(_FUNC_MESSAGEBOX_STRING_MESSAGE);
 }
-if(oldstr655){
-if(oldstr655->fixed)qbs_set(oldstr655,_FUNC_MESSAGEBOX_STRING_TITLE);
+if(oldstr2882){
+if(oldstr2882->fixed)qbs_set(oldstr2882,_FUNC_MESSAGEBOX_STRING_TITLE);
 qbs_free(_FUNC_MESSAGEBOX_STRING_TITLE);
 }

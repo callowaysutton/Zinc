@@ -1,12 +1,12 @@
 qbs *_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0=NULL;
 if (!_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0)_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0=qbs_new(0,0);
-qbs*oldstr671=NULL;
+qbs*oldstr2898=NULL;
 if(_FUNC___UI_TRIMAT0_STRING_TEXT->tmp||_FUNC___UI_TRIMAT0_STRING_TEXT->fixed||_FUNC___UI_TRIMAT0_STRING_TEXT->readonly){
-oldstr671=_FUNC___UI_TRIMAT0_STRING_TEXT;
-if (oldstr671->cmem_descriptor){
-_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new_cmem(oldstr671->len,0);
+oldstr2898=_FUNC___UI_TRIMAT0_STRING_TEXT;
+if (oldstr2898->cmem_descriptor){
+_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new_cmem(oldstr2898->len,0);
 }else{
-_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new(oldstr671->len,0);
+_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new(oldstr2898->len,0);
 }
-memcpy(_FUNC___UI_TRIMAT0_STRING_TEXT->chr,oldstr671->chr,oldstr671->len);
+memcpy(_FUNC___UI_TRIMAT0_STRING_TEXT->chr,oldstr2898->chr,oldstr2898->len);
 }

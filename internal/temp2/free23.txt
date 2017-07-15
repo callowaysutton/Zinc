@@ -1,5 +1,5 @@
-if(oldstr585){
-if(oldstr585->fixed)qbs_set(oldstr585,_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME);
+if(oldstr2812){
+if(oldstr2812->fixed)qbs_set(oldstr2812,_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME);
 qbs_free(_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME);
 }
 qbs_free(_FUNC___UI_LOADTHEMEIMAGE_STRING_A);

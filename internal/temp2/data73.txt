@@ -20,15 +20,15 @@ if(_SUB___UI_DRAWMENUPANEL_BYTE_CHECKMARKINDEX==NULL){
 _SUB___UI_DRAWMENUPANEL_BYTE_CHECKMARKINDEX=(int8*)mem_static_malloc(1);
 *_SUB___UI_DRAWMENUPANEL_BYTE_CHECKMARKINDEX=0;
 }
-uint32 pass773;
-int16 pass774;
-int16 pass775;
-int16 pass776;
-int16 pass777;
-int16 pass778;
-int32 pass779;
-int16 pass780;
-int16 pass781;
+uint32 pass3000;
+int16 pass3001;
+int16 pass3002;
+int16 pass3003;
+int16 pass3004;
+int16 pass3005;
+int32 pass3006;
+int16 pass3007;
+int16 pass3008;
 int32 *_SUB___UI_DRAWMENUPANEL_LONG_I=NULL;
 if(_SUB___UI_DRAWMENUPANEL_LONG_I==NULL){
 _SUB___UI_DRAWMENUPANEL_LONG_I=(int32*)mem_static_malloc(4);
@@ -39,17 +39,17 @@ if(_SUB___UI_DRAWMENUPANEL_BYTE_HASSEPARATOR==NULL){
 _SUB___UI_DRAWMENUPANEL_BYTE_HASSEPARATOR=(int8*)mem_static_malloc(1);
 *_SUB___UI_DRAWMENUPANEL_BYTE_HASSEPARATOR=0;
 }
-int64 fornext_value783;
-int64 fornext_finalvalue783;
-int64 fornext_step783;
-uint8 fornext_step_negative783;
-byte_element_struct *byte_element_784=NULL;
-if (!byte_element_784){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_784=(byte_element_struct*)(mem_static_pointer-12); else byte_element_784=(byte_element_struct*)mem_static_malloc(12);
+int64 fornext_value3010;
+int64 fornext_finalvalue3010;
+int64 fornext_step3010;
+uint8 fornext_step_negative3010;
+byte_element_struct *byte_element_3011=NULL;
+if (!byte_element_3011){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3011=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3011=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass785;
-int16 pass786;
-int16 pass787;
+int16 pass3012;
+int16 pass3013;
+int16 pass3014;
 int16 *_SUB___UI_DRAWMENUPANEL_INTEGER_ICONRATIO=NULL;
 if(_SUB___UI_DRAWMENUPANEL_INTEGER_ICONRATIO==NULL){
 _SUB___UI_DRAWMENUPANEL_INTEGER_ICONRATIO=(int16*)mem_static_malloc(2);
@@ -65,9 +65,9 @@ if(_SUB___UI_DRAWMENUPANEL_INTEGER_ICONHEIGHT==NULL){
 _SUB___UI_DRAWMENUPANEL_INTEGER_ICONHEIGHT=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWMENUPANEL_INTEGER_ICONHEIGHT=0;
 }
-byte_element_struct *byte_element_788=NULL;
-if (!byte_element_788){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_788=(byte_element_struct*)(mem_static_pointer-12); else byte_element_788=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3015=NULL;
+if (!byte_element_3015){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3015=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3015=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass789;
-int16 pass790;
+int16 pass3016;
+int16 pass3017;

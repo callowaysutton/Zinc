@@ -1,4 +1,5 @@
 ': Controls' IDs: ------------------------------------------------------------------
+DIM var AS STRING
 DIM SHARED Zinc AS LONG
 DIM SHARED FileMenu AS LONG
 DIM SHARED EditMenu AS LONG
@@ -70,7 +71,13 @@ SUB __UI_BeforeInit
 END SUB
 
 SUB __UI_OnLoad
+    OPEN "MyFile.txt" FOR OUTPUT AS #1
+    WRITE #1, "Online"
+    CLOSE #1
 
+    OPEN "MyFile.txt" FOR INPUT AS #1
+    INPUT #1, var
+    CLOSE #1
 END SUB
 
 SUB __UI_BeforeUpdateDisplay
@@ -78,7 +85,11 @@ SUB __UI_BeforeUpdateDisplay
 END SUB
 
 SUB __UI_BeforeUnload
-run "Alerts\__Window.exe"
+    OPEN "MyFile.txt" FOR OUTPUT AS #1
+    WRITE #1, "Offline"
+    CLOSE #1
+
+    RUN "Alerts\__Window.exe"
 END SUB
 
 SUB __UI_Click (id AS LONG)

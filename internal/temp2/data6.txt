@@ -50,19 +50,19 @@ if(_SUB___UI_UPDATEDISPLAY_BYTE_CONTROLSTATE==NULL){
 _SUB___UI_UPDATEDISPLAY_BYTE_CONTROLSTATE=(int8*)mem_static_malloc(1);
 *_SUB___UI_UPDATEDISPLAY_BYTE_CONTROLSTATE=0;
 }
-int64 fornext_value168;
-int64 fornext_finalvalue168;
-int64 fornext_step168;
-uint8 fornext_step_negative168;
-int16 pass169;
-int16 pass170;
-int64 fornext_value172;
-int64 fornext_finalvalue172;
-int64 fornext_step172;
-uint8 fornext_step_negative172;
-static int32 sc_173;
-float pass174;
-float pass175;
+int64 fornext_value2395;
+int64 fornext_finalvalue2395;
+int64 fornext_step2395;
+uint8 fornext_step_negative2395;
+int16 pass2396;
+int16 pass2397;
+int64 fornext_value2399;
+int64 fornext_finalvalue2399;
+int64 fornext_step2399;
+uint8 fornext_step_negative2399;
+static int32 sc_2400;
+float pass2401;
+float pass2402;
 int32 *_SUB___UI_UPDATEDISPLAY_LONG_S1=NULL;
 if(_SUB___UI_UPDATEDISPLAY_LONG_S1==NULL){
 _SUB___UI_UPDATEDISPLAY_LONG_S1=(int32*)mem_static_malloc(4);
@@ -83,13 +83,13 @@ if(_SUB___UI_UPDATEDISPLAY_LONG_SS2==NULL){
 _SUB___UI_UPDATEDISPLAY_LONG_SS2=(int32*)mem_static_malloc(4);
 *_SUB___UI_UPDATEDISPLAY_LONG_SS2=0;
 }
-byte_element_struct *byte_element_176=NULL;
-if (!byte_element_176){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_176=(byte_element_struct*)(mem_static_pointer-12); else byte_element_176=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_2403=NULL;
+if (!byte_element_2403){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2403=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2403=(byte_element_struct*)mem_static_malloc(12);
 }
-float pass177;
-float pass178;
-float pass179;
+float pass2404;
+float pass2405;
+float pass2406;
 int16 *_SUB___UI_UPDATEDISPLAY_INTEGER_X1=NULL;
 if(_SUB___UI_UPDATEDISPLAY_INTEGER_X1==NULL){
 _SUB___UI_UPDATEDISPLAY_INTEGER_X1=(int16*)mem_static_malloc(2);
@@ -125,14 +125,14 @@ if(_SUB___UI_UPDATEDISPLAY_LONG_THISPARENT==NULL){
 _SUB___UI_UPDATEDISPLAY_LONG_THISPARENT=(int32*)mem_static_malloc(4);
 *_SUB___UI_UPDATEDISPLAY_LONG_THISPARENT=0;
 }
-int64 fornext_value181;
-int64 fornext_finalvalue181;
-int64 fornext_step181;
-uint8 fornext_step_negative181;
-int64 fornext_value183;
-int64 fornext_finalvalue183;
-int64 fornext_step183;
-uint8 fornext_step_negative183;
+int64 fornext_value2408;
+int64 fornext_finalvalue2408;
+int64 fornext_step2408;
+uint8 fornext_step_negative2408;
+int64 fornext_value2410;
+int64 fornext_finalvalue2410;
+int64 fornext_step2410;
+uint8 fornext_step_negative2410;
 qbs *_SUB___UI_UPDATEDISPLAY_STRING_SIZEANDPOSITION1=NULL;
 if (!_SUB___UI_UPDATEDISPLAY_STRING_SIZEANDPOSITION1)_SUB___UI_UPDATEDISPLAY_STRING_SIZEANDPOSITION1=qbs_new(0,0);
 qbs *_SUB___UI_UPDATEDISPLAY_STRING_SIZEANDPOSITION2=NULL;
@@ -152,17 +152,17 @@ if(_SUB___UI_UPDATEDISPLAY_INTEGER_INFOTOP==NULL){
 _SUB___UI_UPDATEDISPLAY_INTEGER_INFOTOP=(int16*)mem_static_malloc(2);
 *_SUB___UI_UPDATEDISPLAY_INTEGER_INFOTOP=0;
 }
-int16 pass184;
-int16 pass185;
-int8 pass186;
-int8 pass187;
-int32 pass188;
-int16 pass189;
-int16 pass190;
-int16 pass191;
-int16 pass192;
-int16 pass193;
-int16 pass194;
+int16 pass2411;
+int16 pass2412;
+int8 pass2413;
+int8 pass2414;
+int32 pass2415;
+int16 pass2416;
+int16 pass2417;
+int16 pass2418;
+int16 pass2419;
+int16 pass2420;
+int16 pass2421;
 int16 *_SUB___UI_UPDATEDISPLAY_INTEGER_THISLINE=NULL;
 if(_SUB___UI_UPDATEDISPLAY_INTEGER_THISLINE==NULL){
 _SUB___UI_UPDATEDISPLAY_INTEGER_THISLINE=(int16*)mem_static_malloc(2);
@@ -195,53 +195,53 @@ _SUB___UI_UPDATEDISPLAY_INTEGER_LONGESTLINE=(int16*)mem_static_malloc(2);
 }
 qbs *_SUB___UI_UPDATEDISPLAY_STRING_TEMPLINE=NULL;
 if (!_SUB___UI_UPDATEDISPLAY_STRING_TEMPLINE)_SUB___UI_UPDATEDISPLAY_STRING_TEMPLINE=qbs_new(0,0);
-int16 pass195;
-int16 pass196;
-int16 pass197;
-int16 pass198;
-int16 pass199;
-int8 pass200;
-int8 pass201;
-int32 pass202;
-int16 pass203;
-int16 pass204;
-int8 pass205;
-int8 pass206;
-int16 pass207;
-int16 pass208;
-byte_element_struct *byte_element_209=NULL;
-if (!byte_element_209){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_209=(byte_element_struct*)(mem_static_pointer-12); else byte_element_209=(byte_element_struct*)mem_static_malloc(12);
+int16 pass2422;
+int16 pass2423;
+int16 pass2424;
+int16 pass2425;
+int16 pass2426;
+int8 pass2427;
+int8 pass2428;
+int32 pass2429;
+int16 pass2430;
+int16 pass2431;
+int8 pass2432;
+int8 pass2433;
+int16 pass2434;
+int16 pass2435;
+byte_element_struct *byte_element_2436=NULL;
+if (!byte_element_2436){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2436=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2436=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass211;
-int8 pass212;
-int8 pass213;
-int16 pass214;
-int16 pass215;
-int16 pass216;
-int16 pass217;
-int8 pass218;
-int8 pass219;
-int32 pass220;
-int16 pass221;
-int16 pass222;
-int8 pass223;
-int8 pass224;
-int16 pass225;
-int16 pass226;
-int8 pass227;
-int8 pass228;
+int16 pass2438;
+int8 pass2439;
+int8 pass2440;
+int16 pass2441;
+int16 pass2442;
+int16 pass2443;
+int16 pass2444;
+int8 pass2445;
+int8 pass2446;
+int32 pass2447;
+int16 pass2448;
+int16 pass2449;
+int8 pass2450;
+int8 pass2451;
+int16 pass2452;
+int16 pass2453;
+int8 pass2454;
+int8 pass2455;
 qbs *_SUB___UI_UPDATEDISPLAY_STRING_NOINPUTMESSAGE=NULL;
 if (!_SUB___UI_UPDATEDISPLAY_STRING_NOINPUTMESSAGE)_SUB___UI_UPDATEDISPLAY_STRING_NOINPUTMESSAGE=qbs_new(0,0);
-int16 pass229;
-int16 pass230;
-int16 pass231;
-int16 pass232;
-byte_element_struct *byte_element_233=NULL;
-if (!byte_element_233){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_233=(byte_element_struct*)(mem_static_pointer-12); else byte_element_233=(byte_element_struct*)mem_static_malloc(12);
+int16 pass2456;
+int16 pass2457;
+int16 pass2458;
+int16 pass2459;
+byte_element_struct *byte_element_2460=NULL;
+if (!byte_element_2460){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2460=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2460=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass234;
-int16 pass235;
-int16 pass236;
-int16 pass237;
+int16 pass2461;
+int16 pass2462;
+int16 pass2463;
+int16 pass2464;

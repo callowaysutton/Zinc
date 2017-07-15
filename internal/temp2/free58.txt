@@ -1,5 +1,5 @@
-if(oldstr686){
-if(oldstr686->fixed)qbs_set(oldstr686,_FUNC_UTF8_STRING_SOURCE);
+if(oldstr2913){
+if(oldstr2913->fixed)qbs_set(oldstr2913,_FUNC_UTF8_STRING_SOURCE);
 qbs_free(_FUNC_UTF8_STRING_SOURCE);
 }
 qbs_free(_FUNC_UTF8_STRING_DEST);

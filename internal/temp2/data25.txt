@@ -3,7 +3,7 @@ if(_SUB_SETRADIOBUTTONVALUE_LONG_I==NULL){
 _SUB_SETRADIOBUTTONVALUE_LONG_I=(int32*)mem_static_malloc(4);
 *_SUB_SETRADIOBUTTONVALUE_LONG_I=0;
 }
-int64 fornext_value609;
-int64 fornext_finalvalue609;
-int64 fornext_step609;
-uint8 fornext_step_negative609;
+int64 fornext_value2836;
+int64 fornext_finalvalue2836;
+int64 fornext_step2836;
+uint8 fornext_step_negative2836;

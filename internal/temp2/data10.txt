@@ -9,12 +9,12 @@ if(_FUNC_RAWTEXT_INTEGER_I==NULL){
 _FUNC_RAWTEXT_INTEGER_I=(int16*)mem_static_malloc(2);
 *_FUNC_RAWTEXT_INTEGER_I=0;
 }
-int32 fornext_value531;
-int32 fornext_finalvalue531;
-int32 fornext_step531;
-uint8 fornext_step_negative531;
-byte_element_struct *byte_element_532=NULL;
-if (!byte_element_532){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_532=(byte_element_struct*)(mem_static_pointer-12); else byte_element_532=(byte_element_struct*)mem_static_malloc(12);
+int32 fornext_value2758;
+int32 fornext_finalvalue2758;
+int32 fornext_step2758;
+uint8 fornext_step_negative2758;
+byte_element_struct *byte_element_2759=NULL;
+if (!byte_element_2759){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2759=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2759=(byte_element_struct*)mem_static_malloc(12);
 }
-static qbs *sc_533=qbs_new(0,0);
+static qbs *sc_2760=qbs_new(0,0);

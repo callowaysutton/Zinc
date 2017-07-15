@@ -1,5 +1,5 @@
-if(oldstr631){
-if(oldstr631->fixed)qbs_set(oldstr631,_SUB___UI_PRINTSTRING_STRING_TEXT);
+if(oldstr2858){
+if(oldstr2858->fixed)qbs_set(oldstr2858,_SUB___UI_PRINTSTRING_STRING_TEXT);
 qbs_free(_SUB___UI_PRINTSTRING_STRING_TEXT);
 }
 qbs_free(_SUB___UI_PRINTSTRING_STRING_UTF);

@@ -1,4 +1,4 @@
-if(oldstr671){
-if(oldstr671->fixed)qbs_set(oldstr671,_FUNC___UI_TRIMAT0_STRING_TEXT);
+if(oldstr2898){
+if(oldstr2898->fixed)qbs_set(oldstr2898,_FUNC___UI_TRIMAT0_STRING_TEXT);
 qbs_free(_FUNC___UI_TRIMAT0_STRING_TEXT);
 }

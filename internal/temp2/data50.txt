@@ -8,7 +8,7 @@ if(_FUNC___UI_FIRSTMENUBARCONTROL_LONG_I==NULL){
 _FUNC___UI_FIRSTMENUBARCONTROL_LONG_I=(int32*)mem_static_malloc(4);
 *_FUNC___UI_FIRSTMENUBARCONTROL_LONG_I=0;
 }
-int64 fornext_value673;
-int64 fornext_finalvalue673;
-int64 fornext_step673;
-uint8 fornext_step_negative673;
+int64 fornext_value2900;
+int64 fornext_finalvalue2900;
+int64 fornext_step2900;
+uint8 fornext_step_negative2900;
