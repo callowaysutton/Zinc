@@ -72,11 +72,7 @@ END SUB
 
 SUB __UI_OnLoad
     OPEN "MyFile.txt" FOR OUTPUT AS #1
-    WRITE #1, "Online"
-    CLOSE #1
-
-    OPEN "MyFile.txt" FOR INPUT AS #1
-    INPUT #1, var
+    WRITE #1, 1
     CLOSE #1
 END SUB
 
@@ -85,8 +81,9 @@ SUB __UI_BeforeUpdateDisplay
 END SUB
 
 SUB __UI_BeforeUnload
+    Offline% = 0
     OPEN "MyFile.txt" FOR OUTPUT AS #1
-    WRITE #1, "Offline"
+    WRITE #1, 0
     CLOSE #1
 
     RUN "Alerts\__Window.exe"
