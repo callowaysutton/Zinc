@@ -1,4 +1,4 @@
-# Zinc 0.0.2.5
+# Zinc 0.0.2.4
 Only on Windows for now, will build for Linux and Mac OS once I have finished setting up the GUI and all of the dependencies for the file menu, help menu, licenses, etc.
 
 ## What is the Backup Branch?
