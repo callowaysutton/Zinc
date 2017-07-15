@@ -1,5 +1,8 @@
-# Zinc 0.0.2.4
+# Zinc 0.0.2.5
 Only on Windows for now, will build for Linux and Mac OS once I have finished setting up the GUI and all of the dependencies for the file menu, help menu, licenses, etc.
+
+## What is the Backup Branch?
+The backup branch is the place where every single file is held, even some of the ones that got deleted
 
 # How to Use?
 To open just run the file called "Start Zinc.exe" and it will open up the IDE and a background executer (for the help menus)
