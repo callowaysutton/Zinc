@@ -1,0 +1,18 @@
+int8 *_FUNC___UI_GETPROPERMOUSEBUTTON_BYTE___UI_GETPROPERMOUSEBUTTON=NULL;
+if(_FUNC___UI_GETPROPERMOUSEBUTTON_BYTE___UI_GETPROPERMOUSEBUTTON==NULL){
+_FUNC___UI_GETPROPERMOUSEBUTTON_BYTE___UI_GETPROPERMOUSEBUTTON=(int8*)mem_static_malloc(1);
+*_FUNC___UI_GETPROPERMOUSEBUTTON_BYTE___UI_GETPROPERMOUSEBUTTON=0;
+}
+int32 pass271;
+byte_element_struct *byte_element_273=NULL;
+if (!byte_element_273){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_273=(byte_element_struct*)(mem_static_pointer-12); else byte_element_273=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_274=NULL;
+if (!byte_element_274){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_274=(byte_element_struct*)(mem_static_pointer-12); else byte_element_274=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_275=NULL;
+if (!byte_element_275){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_275=(byte_element_struct*)(mem_static_pointer-12); else byte_element_275=(byte_element_struct*)mem_static_malloc(12);
+}

@@ -1,0 +1,5 @@
+if(oldstr8169){
+if(oldstr8169->fixed)qbs_set(oldstr8169,_FUNC___UI_IMAGEDATA_STRING_FILE);
+qbs_free(_FUNC___UI_IMAGEDATA_STRING_FILE);
+}
+qbs_free(_FUNC___UI_IMAGEDATA_STRING_A);

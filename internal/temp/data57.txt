@@ -1,0 +1,21 @@
+qbs *_FUNC_FROMCP1252_STRING_FROMCP1252=NULL;
+if (!_FUNC_FROMCP1252_STRING_FROMCP1252)_FUNC_FROMCP1252_STRING_FROMCP1252=qbs_new(0,0);
+qbs*oldstr8059=NULL;
+if(_FUNC_FROMCP1252_STRING_SOURCE->tmp||_FUNC_FROMCP1252_STRING_SOURCE->fixed||_FUNC_FROMCP1252_STRING_SOURCE->readonly){
+oldstr8059=_FUNC_FROMCP1252_STRING_SOURCE;
+if (oldstr8059->cmem_descriptor){
+_FUNC_FROMCP1252_STRING_SOURCE=qbs_new_cmem(oldstr8059->len,0);
+}else{
+_FUNC_FROMCP1252_STRING_SOURCE=qbs_new(oldstr8059->len,0);
+}
+memcpy(_FUNC_FROMCP1252_STRING_SOURCE->chr,oldstr8059->chr,oldstr8059->len);
+}
+int32 *_FUNC_FROMCP1252_LONG_I=NULL;
+if(_FUNC_FROMCP1252_LONG_I==NULL){
+_FUNC_FROMCP1252_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC_FROMCP1252_LONG_I=0;
+}
+int64 fornext_value8061;
+int64 fornext_finalvalue8061;
+int64 fornext_step8061;
+uint8 fornext_step_negative8061;

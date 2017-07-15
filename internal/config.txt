@@ -1,0 +1,43 @@
+
+'[CONFIG VERSION]
+ConfigVersion = 1
+
+'[ANDROID MENU]
+IDE_AndroidMenu = FALSE
+IDE_AndroidStartScript$ = "programs\android\start_android.bat"
+IDE_AndroidMakeScript$ = "programs\android\start_android.bat"
+
+'[GENERAL SETTINGS]
+BracketHighlight = TRUE
+SaveExeWithSource = TRUE
+PasteCursorAtEnd = FALSE
+DebugInfo = FALSE 'INTERNAL VARIABLE USE ONLY!! DO NOT MANUALLY CHANGE!
+BackupSize = 100 'in MB
+AllowIndependentSettings = TRUE
+
+'[IDE COLOR SETTINGS]
+BackgroundColor2 = _RGB32(0,108,177)
+TextColor = _RGB32(255,255,255)
+QuoteColor = _RGB32(255,255,85)
+MetaCommandColor = _RGB32(85,255,85)
+CommentColor = _RGB32(85,255,255)
+BackgroundColor = _RGB32(0,0,170)
+SchemeID = 1
+
+'[IDE DISPLAY SETTINGS]
+IDE_IndentSUBs = FALSE
+IDE_CodePage = 0
+IDE_CustomFont = FALSE
+IDE_CustomFont$ = "c:\windows\fonts\lucon.ttf"
+IDE_CustomFontSize = 21
+IDE_AutoFormat = TRUE
+IDE_AutoIndent = TRUE
+IDE_IndentSize = 4
+IDE_Height =  44
+IDE_Width =  170
+IDE_AutoPosition = TRUE
+IDE_LeftPosition = 0
+IDE_TopPosition = 0
+
+'[MOUSE SETTINGS]
+SwapMouseButton = FALSE

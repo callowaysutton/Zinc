@@ -1,0 +1,3 @@
+NewZincWindow.bas
+Zinc.bas
+Zinc.bas-backup

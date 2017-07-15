@@ -1,0 +1,9 @@
+int16 *_SUB___UI_SHADOWBOX_INTEGER_I=NULL;
+if(_SUB___UI_SHADOWBOX_INTEGER_I==NULL){
+_SUB___UI_SHADOWBOX_INTEGER_I=(int16*)mem_static_malloc(2);
+*_SUB___UI_SHADOWBOX_INTEGER_I=0;
+}
+int32 fornext_value8168;
+int32 fornext_finalvalue8168;
+int32 fornext_step8168;
+uint8 fornext_step_negative8168;

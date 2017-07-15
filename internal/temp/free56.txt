@@ -1,0 +1,4 @@
+if(oldstr8056){
+if(oldstr8056->fixed)qbs_set(oldstr8056,_FUNC_FROMCP437_STRING_SOURCE);
+qbs_free(_FUNC_FROMCP437_STRING_SOURCE);
+}

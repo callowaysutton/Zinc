@@ -1,0 +1,34 @@
+int16 *_SUB___UI_LISTBOXSEARCHITEM_INTEGER_THISITEM=NULL;
+if(_SUB___UI_LISTBOXSEARCHITEM_INTEGER_THISITEM==NULL){
+_SUB___UI_LISTBOXSEARCHITEM_INTEGER_THISITEM=(int16*)mem_static_malloc(2);
+*_SUB___UI_LISTBOXSEARCHITEM_INTEGER_THISITEM=0;
+}
+int32 *_SUB___UI_LISTBOXSEARCHITEM_LONG_FINDLF=NULL;
+if(_SUB___UI_LISTBOXSEARCHITEM_LONG_FINDLF==NULL){
+_SUB___UI_LISTBOXSEARCHITEM_LONG_FINDLF=(int32*)mem_static_malloc(4);
+*_SUB___UI_LISTBOXSEARCHITEM_LONG_FINDLF=0;
+}
+qbs *_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPCAPTION=NULL;
+if (!_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPCAPTION)_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPCAPTION=qbs_new(0,0);
+qbs *_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPTEXT=NULL;
+if (!_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPTEXT)_SUB___UI_LISTBOXSEARCHITEM_STRING_TEMPTEXT=qbs_new(0,0);
+ptrszint *_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS=NULL;
+if (!_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS){
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS=(ptrszint*)mem_static_malloc(9*ptrsz);
+new_mem_lock();
+mem_lock_tmp->type=4;
+((ptrszint*)_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS)[8]=(ptrszint)mem_lock_tmp;
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[2]=0;
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[4]=2147483647;
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[5]=0;
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[6]=0;
+_SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[0]=(ptrszint)&nothingstring;
+}
+byte_element_struct *byte_element_8003=NULL;
+if (!byte_element_8003){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8003=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8003=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_8006=NULL;
+if (!byte_element_8006){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8006=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8006=(byte_element_struct*)mem_static_malloc(12);
+}

@@ -1,0 +1,2 @@
+qbs_free(_FUNC_RAWTEXT_STRING_T);
+qbs_free(_FUNC_RAWTEXT_STRING_C);

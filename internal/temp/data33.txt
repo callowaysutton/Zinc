@@ -1,0 +1,15 @@
+qbs*oldstr7996=NULL;
+if(_SUB_ADDITEM_STRING_ITEM->tmp||_SUB_ADDITEM_STRING_ITEM->fixed||_SUB_ADDITEM_STRING_ITEM->readonly){
+oldstr7996=_SUB_ADDITEM_STRING_ITEM;
+if (oldstr7996->cmem_descriptor){
+_SUB_ADDITEM_STRING_ITEM=qbs_new_cmem(oldstr7996->len,0);
+}else{
+_SUB_ADDITEM_STRING_ITEM=qbs_new(oldstr7996->len,0);
+}
+memcpy(_SUB_ADDITEM_STRING_ITEM->chr,oldstr7996->chr,oldstr7996->len);
+}
+int32 *_SUB_ADDITEM_LONG_THISID=NULL;
+if(_SUB_ADDITEM_LONG_THISID==NULL){
+_SUB_ADDITEM_LONG_THISID=(int32*)mem_static_malloc(4);
+*_SUB_ADDITEM_LONG_THISID=0;
+}

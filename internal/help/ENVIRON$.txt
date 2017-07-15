@@ -1,0 +1,129 @@
+The '''ENVIRON$''' function returns a [[STRING]] environmental value from the '''Windows''' PC's environmental settings list.
+
+
+
+{{PageSyntax}} 
+
+::: setting$ = ENVIRON$({''list_number%''|''systemID$''})
+
+
+* The function can use an [[INTEGER]] ''list_number'' order value or [[STRING]] ''systemID$'' parameter.
+* ''List_number'' refers to the number order of the environmental list. Returns are not in any particular numerical order.
+* ''SystemID'' is the specific [[STRING]] parameter requested. Returns that environmental [[STRING]] setting only:
+::* &quot;BLASTER&quot; = current Sound Blaster settings if installed. 
+::* &quot;COMPUTERNAME&quot; or &quot;USERDOMAIN&quot; = OEM PC serial number or the computer name assigned by owner.
+::* &quot;HOMEDRIVE&quot; or &quot;SystemDrive&quot; = Windows root drive, normally C: on single partition drives.
+::* &quot;HOMEPATH&quot; = current user's Administrator or the single user's &quot;OWNER&quot; folder path.
+::* &quot;OS&quot; = Windows Operating System version. Often WindowsNT these days.
+::* &quot;PATH&quot; = full Windows path settings that windows uses to look for file extensions in PATHEXT below.
+::* &quot;PATHEXT = Windows extensions used:  COM, EXE, BAT, CMD, VBS, VBE, JS, JSE, WSF, WSH, MSC  
+::* &quot;PROCESSOR_ARCHITECTURE&quot; = x86 for 32 or 64 bit so far.
+::* &quot;PROGRAMFILES&quot; = path to Program files folder normally &quot;C:\PROGRAM FILES&quot;
+::* &quot;PROMPT&quot; = $P$G normaly on Windows NT. Windows 95 and 98 = &quot;[WIN 98]$P$G&quot; but cannot run QB64! 
+::* &quot;SYSTEMROOT&quot; or &quot;windir&quot; = path to the Windows folder including the drive letter like &quot;C:\WINDOWS&quot;
+::* &quot;TEMP&quot; or &quot;TMP&quot; = path to TEMP folder. &quot;C:\TEMP&quot; or the user specific temp folder on later versions.
+::* &quot;USERNAME&quot; = current Administrator name or &quot;OWNER&quot;.
+: ''Note:'' There are other possible system settings that are not listed or never used on older versions! Run ''Example 1''
+* The OS in Win 9X or ME can be found in the &quot;PROMPT&quot; parameter ID. Returns are limited in Win 9X and ME.
+* ''Note:'' '''QB64''' may not return the same environment list as Qbasic or SET does in DOS.
+
+
+
+''Example 1:'' Viewing the list of environmental parameter settings using a counter loop like SET does in DOS.
+
+{{CodeStart}} '' ''
+{{Cl|DO}}
+  i = i + 1
+  setting$ = {{Cl|ENVIRON$}}(i) ' get a setting from the list
+  {{Cl|PRINT}} setting$
+  {{Cl|IF...THEN|IF}} i {{Cl|MOD}} 20 = 0 {{Cl|THEN}} {{Cl|PRINT}} &quot;Press a key&quot;: {{Cl|SLEEP}}: {{Cl|CLS}}
+{{Cl|LOOP}} {{Cl|UNTIL}} setting$ = &quot;&quot;
+{{CodeEnd}}
+{{OutputStart}}
+ALLUSERSPROFILE=C:\ProgramData
+COMPUTERNAME=TED-LAPTOP
+ComSpec=C:\WINDOWS\system32\cmd.exe
+HOMEDRIVE=C:
+HOMEPATH=\Users\Ted
+LOCALAPPDATA=C:\Users\Ted\AppData\Local
+OS=Windows_NT
+Path=C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\WINDOWS\SYSTEM32;C:\WINDOWS;
+C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\
+WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32
+\WindowsPowerShell\v1.0\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 14 Stepping 8, GenuineIntel
+ProgramFiles=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\TED\AppData\Local\Temp
+TMP=C:\Users\TED\AppData\Local\Temp
+USERDOMAIN=TED-LAPTOP
+USERNAME=Ted
+USERPROFILE=C:\Users\Ted
+{{OutputEnd}}
+:''Note:'' Windows environmental settings are listed alphabetically, 20 at a time. '''QB64 may not read all of them or return an empty string!''' The settings above were returned with SET in DOS. PROMPT returned nothing where SET returned $P$G. 
+
+
+''Example 2:'' Creating a shortcut on a user's desktop for QB64.EXE using the program's icon. Must be run in program's folder to work!
+{{CodeStart}}
+'=== Enter the EXE file and ICON or BMP image for the shortcut.
+
+Program$ = &quot;QB64.EXE&quot;  '&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Enter the '''exact''' program name for shortcut
+ICON$ = &quot;QB64ICON.BMP&quot; '&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Enter icon or bitmap to use from program's folder
+
+DeskTopShortcut Program$, ICON$
+
+{{Cl|END}}             '====== END DEMO CODE ======
+
+{{Cl|SUB}} DeskTopShortcut (Program$, ICON$)
+f = {{Cl|FREEFILE}}
+{{Cl|SHELL}} {{Cl|_HIDE}} &quot;CD &gt; PRGMDIR.INF&quot;  'get the current program path
+{{Cl|OPEN}} &quot;PRGMDIR.INF&quot; {{Cl|FOR (file statement)|FOR}} {{Cl|INPUT (file mode)|INPUT}} {{Cl|AS}} #f
+{{Cl|LINE INPUT (file statement)|LINE INPUT}} #f, PATH$
+{{Cl|CLOSE}} #f
+{{Cl|KILL}} &quot;PRGMDIR.INF&quot;
+PATH$ = PATH$ + &quot;\&quot;: FILE$ = PATH + Program$
+PRINT PATH$                         'DEMO print
+A$ = {{Cl|ENVIRON$}}(&quot;HOMEDRIVE&quot;)          '=== Get Current User setting from Environment.
+B$ = {{Cl|ENVIRON$}}(&quot;HOMEPATH&quot;)
+C$ = A$ + B$                        'shortcut to user's desktop if found
+
+{{Cl|IF...THEN|IF}} C$ = &quot;&quot; {{Cl|THEN}} C$ = {{Cl|ENVIRON$}}(&quot;ALLUSERSPROFILE&quot;) 'try desktop for all users
+PRINT C$                            'DEMO print
+URLFILE$ = {{Cl|MID$}}(Program$, 1, {{Cl|INSTR}}(Program$, &quot;.&quot;)) + &quot;URL&quot; 'change EXE to URL
+
+{{Cl|IF...THEN|IF}} C$ &gt; &quot;&quot; {{Cl|THEN}}  
+     SHORTCUT$ = C$ + &quot;\Desktop\&quot; + URLFILE$ 'create filename for the desktop
+{{Cl|ELSE}} SHORTCUT$ = PATH$ + URLFILE$   'if all else fails put in program folder
+{{Cl|END IF}}
+PRINT SHORTCUT                      'DEMO print
+{{Cl|OPEN}} SHORTCUT$ {{Cl|FOR (file statement)|FOR}} {{Cl|APPEND}} {{Cl|AS}} #f
+{{Cl|IF...THEN|IF}} {{Cl|LOF}}(f) {{Cl|THEN}} {{Cl|CLOSE}} #f: {{Cl|EXIT SUB}}   '=== if filesize is NOT Zero don't overwrite!
+
+Q$ = {{Cl|CHR$}}(34)                       '=== Write URL Shortcut file info.
+{{Cl|PRINT (file statement)|PRINT}} #f, &quot;[InternetShortcut]&quot;                    'URL type
+{{Cl|PRINT (file statement)|PRINT}} #f, &quot;URL=&quot; + Q$ + &quot;file://&quot; + FILE$ + Q$    'URL program file
+{{Cl|PRINT (file statement)|PRINT}} #f, &quot;WorkingDirectory=&quot; + Q$ + PATH$ + Q$   'Working path
+{{Cl|PRINT (file statement)|PRINT}} #f, &quot;IconIndex = &quot; + Q$ + &quot;0&quot; + Q$          '0 is first index
+{{Cl|PRINT (file statement)|PRINT}} #f, &quot;IconFile = &quot; + Q$ + PATH$ + ICON$ + Q$ 'Icon path in working folder
+{{Cl|CLOSE}} #f
+{{Cl|END SUB}} '' ''
+{{CodeEnd}}
+{{small|Adapted from code by Dav}}
+: ''Explanation:'' The SUB program finds the current program's path and user's desktop path. It then creates the shortcut on the desktop with a program icon. The custom icon should be in the program's folder. If an environmental path is not found, the shortcut is placed in the program's folder. The SUB can be added to any program. 
+
+&lt;center&gt;{{Text|'''NOTE:''' A temorary file named PRGMDIR.INF is created and deleted.|darkred}}&lt;/center&gt;
+
+
+''See also:'' 
+* [[_DEVICES]], [[_DEVICE$]]
+* [[_LASTBUTTON]], [[_OS$]]
+* [[ENVIRON]] {{text|(statement)}}
+* [[Windows Environment]]
+* [[Windows Libraries#Windows User|Windows User Paths Library]]
+
+
+{{PageNavigation}}

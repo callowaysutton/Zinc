@@ -1,0 +1,123 @@
+int32 *_FUNC___UI_LOADTHEMEIMAGE_LONG___UI_LOADTHEMEIMAGE=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_LONG___UI_LOADTHEMEIMAGE==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_LONG___UI_LOADTHEMEIMAGE=(int32*)mem_static_malloc(4);
+*_FUNC___UI_LOADTHEMEIMAGE_LONG___UI_LOADTHEMEIMAGE=0;
+}
+qbs*oldstr7961=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME->tmp||_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME->fixed||_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME->readonly){
+oldstr7961=_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME;
+if (oldstr7961->cmem_descriptor){
+_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME=qbs_new_cmem(oldstr7961->len,0);
+}else{
+_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME=qbs_new(oldstr7961->len,0);
+}
+memcpy(_FUNC___UI_LOADTHEMEIMAGE_STRING_FILENAME->chr,oldstr7961->chr,oldstr7961->len);
+}
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_A=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_A)_FUNC___UI_LOADTHEMEIMAGE_STRING_A=qbs_new(0,0);
+int32 *_FUNC___UI_LOADTHEMEIMAGE_LONG_I=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_LONG_I==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC___UI_LOADTHEMEIMAGE_LONG_I=0;
+}
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_B=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_B)_FUNC___UI_LOADTHEMEIMAGE_STRING_B=qbs_new(0,0);
+int16 *_FUNC___UI_LOADTHEMEIMAGE_INTEGER_C=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_INTEGER_C==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_INTEGER_C=(int16*)mem_static_malloc(2);
+*_FUNC___UI_LOADTHEMEIMAGE_INTEGER_C=0;
+}
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_F=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_F)_FUNC___UI_LOADTHEMEIMAGE_STRING_F=qbs_new(0,0);
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_C=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_C)_FUNC___UI_LOADTHEMEIMAGE_STRING_C=qbs_new(0,0);
+int16 *_FUNC___UI_LOADTHEMEIMAGE_INTEGER_T=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_INTEGER_T==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_INTEGER_T=(int16*)mem_static_malloc(2);
+*_FUNC___UI_LOADTHEMEIMAGE_INTEGER_T=0;
+}
+int32 *_FUNC___UI_LOADTHEMEIMAGE_LONG_B=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_LONG_B==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_LONG_B=(int32*)mem_static_malloc(4);
+*_FUNC___UI_LOADTHEMEIMAGE_LONG_B=0;
+}
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_X=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_X)_FUNC___UI_LOADTHEMEIMAGE_STRING_X=qbs_new(0,0);
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_BTEMP=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_BTEMP)_FUNC___UI_LOADTHEMEIMAGE_STRING_BTEMP=qbs_new(0,0);
+qbs *_FUNC___UI_LOADTHEMEIMAGE_STRING_BASFILE=NULL;
+if (!_FUNC___UI_LOADTHEMEIMAGE_STRING_BASFILE)_FUNC___UI_LOADTHEMEIMAGE_STRING_BASFILE=qbs_new(0,0);
+void *_FUNC___UI_LOADTHEMEIMAGE_UDT_MEMORYBLOCK=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_UDT_MEMORYBLOCK==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_UDT_MEMORYBLOCK=(void*)mem_static_malloc(32);
+memset(_FUNC___UI_LOADTHEMEIMAGE_UDT_MEMORYBLOCK,0,32);
+}
+int32 *_FUNC___UI_LOADTHEMEIMAGE_LONG_TEMPIMAGE=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_LONG_TEMPIMAGE==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_LONG_TEMPIMAGE=(int32*)mem_static_malloc(4);
+*_FUNC___UI_LOADTHEMEIMAGE_LONG_TEMPIMAGE=0;
+}
+int32 *_FUNC___UI_LOADTHEMEIMAGE_LONG_NEXTSLOT=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_LONG_NEXTSLOT==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_LONG_NEXTSLOT=(int32*)mem_static_malloc(4);
+*_FUNC___UI_LOADTHEMEIMAGE_LONG_NEXTSLOT=0;
+}
+int16 *_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWWIDTH=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWWIDTH==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWWIDTH=(int16*)mem_static_malloc(2);
+*_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWWIDTH=0;
+}
+int16 *_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWHEIGHT=NULL;
+if(_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWHEIGHT==NULL){
+_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWHEIGHT=(int16*)mem_static_malloc(2);
+*_FUNC___UI_LOADTHEMEIMAGE_INTEGER_NEWHEIGHT=0;
+}
+int64 fornext_value7963;
+int64 fornext_finalvalue7963;
+int64 fornext_step7963;
+uint8 fornext_step_negative7963;
+byte_element_struct *byte_element_7964=NULL;
+if (!byte_element_7964){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7964=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7964=(byte_element_struct*)mem_static_malloc(12);
+}
+int64 fornext_value7966;
+int64 fornext_finalvalue7966;
+int64 fornext_step7966;
+uint8 fornext_step_negative7966;
+byte_element_struct *byte_element_7967=NULL;
+if (!byte_element_7967){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7967=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7967=(byte_element_struct*)mem_static_malloc(12);
+}
+int32 fornext_value7969;
+int32 fornext_finalvalue7969;
+int32 fornext_step7969;
+uint8 fornext_step_negative7969;
+byte_element_struct *byte_element_7970=NULL;
+if (!byte_element_7970){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7970=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7970=(byte_element_struct*)mem_static_malloc(12);
+}
+int32 fornext_value7972;
+int32 fornext_finalvalue7972;
+int32 fornext_step7972;
+uint8 fornext_step_negative7972;
+byte_element_struct *byte_element_7973=NULL;
+if (!byte_element_7973){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7973=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7973=(byte_element_struct*)mem_static_malloc(12);
+}
+int32 fornext_value7975;
+int32 fornext_finalvalue7975;
+int32 fornext_step7975;
+uint8 fornext_step_negative7975;
+byte_element_struct *byte_element_7976=NULL;
+if (!byte_element_7976){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7976=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7976=(byte_element_struct*)mem_static_malloc(12);
+}
+mem_block func7977;
+byte_element_struct *byte_element_7978=NULL;
+if (!byte_element_7978){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7978=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7978=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_7979=NULL;
+if (!byte_element_7979){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7979=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7979=(byte_element_struct*)mem_static_malloc(12);
+}

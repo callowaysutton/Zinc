@@ -1,0 +1,8 @@
+if(oldstr8030){
+if(oldstr8030->fixed)qbs_set(oldstr8030,_FUNC_MESSAGEBOX_STRING_MESSAGE);
+qbs_free(_FUNC_MESSAGEBOX_STRING_MESSAGE);
+}
+if(oldstr8031){
+if(oldstr8031->fixed)qbs_set(oldstr8031,_FUNC_MESSAGEBOX_STRING_TITLE);
+qbs_free(_FUNC_MESSAGEBOX_STRING_TITLE);
+}

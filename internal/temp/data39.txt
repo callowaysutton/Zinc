@@ -1,0 +1,28 @@
+qbs*oldstr8007=NULL;
+if(_SUB___UI_PRINTSTRING_STRING_TEXT->tmp||_SUB___UI_PRINTSTRING_STRING_TEXT->fixed||_SUB___UI_PRINTSTRING_STRING_TEXT->readonly){
+oldstr8007=_SUB___UI_PRINTSTRING_STRING_TEXT;
+if (oldstr8007->cmem_descriptor){
+_SUB___UI_PRINTSTRING_STRING_TEXT=qbs_new_cmem(oldstr8007->len,0);
+}else{
+_SUB___UI_PRINTSTRING_STRING_TEXT=qbs_new(oldstr8007->len,0);
+}
+memcpy(_SUB___UI_PRINTSTRING_STRING_TEXT->chr,oldstr8007->chr,oldstr8007->len);
+}
+qbs *_SUB___UI_PRINTSTRING_STRING_UTF=NULL;
+if (!_SUB___UI_PRINTSTRING_STRING_UTF)_SUB___UI_PRINTSTRING_STRING_UTF=qbs_new(0,0);
+byte_element_struct *byte_element_8008=NULL;
+if (!byte_element_8008){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8008=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8008=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_8009=NULL;
+if (!byte_element_8009){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8009=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8009=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_8010=NULL;
+if (!byte_element_8010){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8010=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8010=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_8011=NULL;
+if (!byte_element_8011){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8011=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8011=(byte_element_struct*)mem_static_malloc(12);
+}

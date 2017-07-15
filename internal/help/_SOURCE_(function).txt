@@ -1,0 +1,25 @@
+{{DISPLAYTITLE:_SOURCE (function)}}
+The '''_SOURCE''' function returns the present image _SOURCE handle value.
+
+
+{{PageSyntax}}
+::: present_source&amp;}} = '''_SOURCE'''
+
+
+{{PageDescription}}
+* Returns a handle value that is a [[LONG]] Integer type.
+* Save the source handle to a [[LONG]] variable for later restoration using the {{KW|_SOURCE}} statement.
+
+
+*''See Example:'' 
+* [[Bitmaps]]
+* [[SAVEIMAGE]]
+* [[SaveIcon32]]
+
+
+{{PageSeeAlso}}
+* [[_DEST (function)]]
+* [[_SOURCE]], [[_DEST]]
+
+
+{{PageNavigation}}

@@ -1,0 +1,23 @@
+void *_SUB_REMOVEITEM_UDT_THIS=NULL;
+if(_SUB_REMOVEITEM_UDT_THIS==NULL){
+_SUB_REMOVEITEM_UDT_THIS=(void*)mem_static_malloc(409);
+memset(_SUB_REMOVEITEM_UDT_THIS,0,409);
+}
+qbs *_SUB_REMOVEITEM_STRING_TEMPTEXT=NULL;
+if (!_SUB_REMOVEITEM_STRING_TEMPTEXT)_SUB_REMOVEITEM_STRING_TEMPTEXT=qbs_new(0,0);
+int16 *_SUB_REMOVEITEM_INTEGER_THISITEM=NULL;
+if(_SUB_REMOVEITEM_INTEGER_THISITEM==NULL){
+_SUB_REMOVEITEM_INTEGER_THISITEM=(int16*)mem_static_malloc(2);
+*_SUB_REMOVEITEM_INTEGER_THISITEM=0;
+}
+int32 *_SUB_REMOVEITEM_LONG_FINDLF=NULL;
+if(_SUB_REMOVEITEM_LONG_FINDLF==NULL){
+_SUB_REMOVEITEM_LONG_FINDLF=(int32*)mem_static_malloc(4);
+*_SUB_REMOVEITEM_LONG_FINDLF=0;
+}
+qbs *_SUB_REMOVEITEM_STRING_TEMPCAPTION=NULL;
+if (!_SUB_REMOVEITEM_STRING_TEMPCAPTION)_SUB_REMOVEITEM_STRING_TEMPCAPTION=qbs_new(0,0);
+byte_element_struct *byte_element_7997=NULL;
+if (!byte_element_7997){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7997=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7997=(byte_element_struct*)mem_static_malloc(12);
+}

@@ -1,0 +1,48 @@
+qbs *_SUB___UI_DRAWBUTTON_STRING_TEMPCAPTION=NULL;
+if (!_SUB___UI_DRAWBUTTON_STRING_TEMPCAPTION)_SUB___UI_DRAWBUTTON_STRING_TEMPCAPTION=qbs_new(0,0);
+int8 *_SUB___UI_DRAWBUTTON_BYTE_HASSHADOW=NULL;
+if(_SUB___UI_DRAWBUTTON_BYTE_HASSHADOW==NULL){
+_SUB___UI_DRAWBUTTON_BYTE_HASSHADOW=(int8*)mem_static_malloc(1);
+*_SUB___UI_DRAWBUTTON_BYTE_HASSHADOW=0;
+}
+int32 *_SUB___UI_DRAWBUTTON_LONG_TEMP=NULL;
+if(_SUB___UI_DRAWBUTTON_LONG_TEMP==NULL){
+_SUB___UI_DRAWBUTTON_LONG_TEMP=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWBUTTON_LONG_TEMP=0;
+}
+int32 *_SUB___UI_DRAWBUTTON_LONG_PREVDEST=NULL;
+if(_SUB___UI_DRAWBUTTON_LONG_PREVDEST==NULL){
+_SUB___UI_DRAWBUTTON_LONG_PREVDEST=(int32*)mem_static_malloc(4);
+*_SUB___UI_DRAWBUTTON_LONG_PREVDEST=0;
+}
+int8 *_SUB___UI_DRAWBUTTON_BYTE_TEMPCONTROLSTATE=NULL;
+if(_SUB___UI_DRAWBUTTON_BYTE_TEMPCONTROLSTATE==NULL){
+_SUB___UI_DRAWBUTTON_BYTE_TEMPCONTROLSTATE=(int8*)mem_static_malloc(1);
+*_SUB___UI_DRAWBUTTON_BYTE_TEMPCONTROLSTATE=0;
+}
+int16 *_SUB___UI_DRAWBUTTON_INTEGER_ICONRATIO=NULL;
+if(_SUB___UI_DRAWBUTTON_INTEGER_ICONRATIO==NULL){
+_SUB___UI_DRAWBUTTON_INTEGER_ICONRATIO=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWBUTTON_INTEGER_ICONRATIO=0;
+}
+int16 *_SUB___UI_DRAWBUTTON_INTEGER_ICONWIDTH=NULL;
+if(_SUB___UI_DRAWBUTTON_INTEGER_ICONWIDTH==NULL){
+_SUB___UI_DRAWBUTTON_INTEGER_ICONWIDTH=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWBUTTON_INTEGER_ICONWIDTH=0;
+}
+int16 *_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT=NULL;
+if(_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT==NULL){
+_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT=(int16*)mem_static_malloc(2);
+*_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT=0;
+}
+byte_element_struct *byte_element_8067=NULL;
+if (!byte_element_8067){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8067=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8067=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_8068=NULL;
+if (!byte_element_8068){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8068=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8068=(byte_element_struct*)mem_static_malloc(12);
+}
+int16 pass8069;
+int16 pass8070;
+int16 pass8071;

@@ -1,0 +1,67 @@
+int32 *_FUNC_SETFONT_LONG_SETFONT=NULL;
+if(_FUNC_SETFONT_LONG_SETFONT==NULL){
+_FUNC_SETFONT_LONG_SETFONT=(int32*)mem_static_malloc(4);
+*_FUNC_SETFONT_LONG_SETFONT=0;
+}
+qbs*oldstr7919=NULL;
+if(_FUNC_SETFONT_STRING_NEWFONTFILE->tmp||_FUNC_SETFONT_STRING_NEWFONTFILE->fixed||_FUNC_SETFONT_STRING_NEWFONTFILE->readonly){
+oldstr7919=_FUNC_SETFONT_STRING_NEWFONTFILE;
+if (oldstr7919->cmem_descriptor){
+_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new_cmem(oldstr7919->len,0);
+}else{
+_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new(oldstr7919->len,0);
+}
+memcpy(_FUNC_SETFONT_STRING_NEWFONTFILE->chr,oldstr7919->chr,oldstr7919->len);
+}
+qbs*oldstr7920=NULL;
+if(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->tmp||_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->fixed||_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->readonly){
+oldstr7920=_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES;
+if (oldstr7920->cmem_descriptor){
+_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new_cmem(oldstr7920->len,0);
+}else{
+_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new(oldstr7920->len,0);
+}
+memcpy(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->chr,oldstr7920->chr,oldstr7920->len);
+}
+int32 *_FUNC_SETFONT_LONG_NEXTSLOT=NULL;
+if(_FUNC_SETFONT_LONG_NEXTSLOT==NULL){
+_FUNC_SETFONT_LONG_NEXTSLOT=(int32*)mem_static_malloc(4);
+*_FUNC_SETFONT_LONG_NEXTSLOT=0;
+}
+int32 *_FUNC_SETFONT_LONG_I=NULL;
+if(_FUNC_SETFONT_LONG_I==NULL){
+_FUNC_SETFONT_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC_SETFONT_LONG_I=0;
+}
+qbs *_FUNC_SETFONT_STRING_TEMP=NULL;
+if (!_FUNC_SETFONT_STRING_TEMP)_FUNC_SETFONT_STRING_TEMP=qbs_new(0,0);
+qbs *_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES=NULL;
+if (!_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES)_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES=qbs_new(0,0);
+int64 fornext_value7922;
+int64 fornext_finalvalue7922;
+int64 fornext_step7922;
+uint8 fornext_step_negative7922;
+int64 fornext_value7924;
+int64 fornext_finalvalue7924;
+int64 fornext_step7924;
+uint8 fornext_step_negative7924;
+byte_element_struct *byte_element_7925=NULL;
+if (!byte_element_7925){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7925=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7925=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_7926=NULL;
+if (!byte_element_7926){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7926=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7926=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_7927=NULL;
+if (!byte_element_7927){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7927=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7927=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_7928=NULL;
+if (!byte_element_7928){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7928=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7928=(byte_element_struct*)mem_static_malloc(12);
+}
+byte_element_struct *byte_element_7929=NULL;
+if (!byte_element_7929){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7929=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7929=(byte_element_struct*)mem_static_malloc(12);
+}

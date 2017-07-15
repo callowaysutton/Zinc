@@ -1,0 +1,109 @@
+{{DISPLAYTITLE:_FULLSCREEN}}
+The '''_FULLSCREEN''' statement attempts to make the program window fullscreen. 
+
+
+{{PageSyntax}}
+:::'''_FULLSCREEN''' [{''_STRETCH | _SQUAREPIXELS| _OFF''}]
+
+
+''Optional'' {{Parameters}}
+* {{Parameter|_STRETCH}} default first choice attempts to mimic QBasic's full screens if possible. [[_FULLSCREEN (function)]] returns 1.
+* {{Parameter|_SQUAREPIXELS}} alternate choice enlarges the pixels into squares on some monitors. [[_FULLSCREEN (function)|_FULLSCREEN]] returns 2
+* {{Parameter|_OFF}} turns _FULLSCREEN off after full screen has been enabled. [[_FULLSCREEN (function)]] returns 0.
+
+
+{{PageDescription}}
+* '''Set the [[SCREEN]] mode and text [[WIDTH]] when necessary FIRST!''' Otherwise there may be desktop view issues.
+* _FULLSCREEN alone chooses {{Parameter|_STRETCH}} or {{Parameter|_SQUAREPIXELS}} (prioritizes _STRETCH to mimic QBASIC if possible)
+* '''Check the fullscreen mode with the [[_FULLSCREEN (function)|_FULLSCREEN]] function in your programs when a method is required!
+* It is advisable to get [[INPUT|input]] from the user to confirm that fullscreen was completed or there were possible monitor incompatibilities.
+* If fullscreen is '''not confirmed''' with a [[_FULLSCREEN (function)]] return '''greater than 0''', then disable with '''_FULLSCREEN _OFF'''!
+* '''NOTE:''' _FULLSCREEN can also be affected by custom [[_FONT]] size settings and make program screens too large!
+
+
+''Example 1:'' Setting the screen mode first prevents enlargement of the desktop before the program window is set: 
+{{CodeStart}}
+{{Cl|SCREEN}} 12
+{{Cl|_FULLSCREEN}}
+{{Cl|IF...THEN|IF}} {{Cl|_FULLSCREEN (function)|_FULLSCREEN}} = 0 {{Cl|THEN}} {{Cl|_FULLSCREEN}} _OFF 'check that a full screen mode initialized
+
+{{Cl|LINE}} (100, 100)-(500, 400), 13, BF
+{{CodeEnd}}
+
+
+''Example 2:'' How fonts and _FULLSCREEN affect the program's window size.
+{{CodeStart}}
+'' ''
+{{Cl|SCREEN (statement)|SCREEN}} 0
+{{Cl|DO}}
+  {{Cl|PRINT}}
+  {{Cl|LINE INPUT}} &quot;Enter MODE 1) ENLARGE WINDOW  2) FULL _SQUAREPIXELS  3) FULL _STRETCH: &quot;, WMODE$
+  {{Cl|PRINT}}
+  {{Cl|IF}} WMODE$ = &quot;1&quot; {{Cl|THEN}} {{Cl|INPUT (file mode)|INPUT}} &quot;SIZE 1 {{Cl|TO}} 9: &quot;, ENLARGE%
+
+  {{Cl|SELECT CASE}} ENLARGE%
+    {{Cl|CASE}} 1, 2, 3, 4, 5: STYLE$ = &quot;MONOSPACE, BOLD&quot;
+    {{Cl|CASE}} 6, 7, 8, 9: STYLE$ = &quot;MONOSPACE&quot;
+    {{Cl|CASE ELSE}}: STYLE$ = &quot;MONOSPACE&quot;
+  {{Cl|END SELECT}}
+
+  {{Cl|SELECT CASE}} WMODE$
+    {{Cl|CASE}} &quot;1&quot;
+      full = {{Cl|_FULLSCREEN (function)|_FULLSCREEN}}
+      {{Cl|IF}} full &gt; 0 {{Cl|THEN}} {{Cl|_FULLSCREEN}} _OFF
+      f&amp; = {{Cl|_LOADFONT}}(&quot;c:\windows\fonts\lucon.ttf&quot;, 13 + ENLARGE%, STYLE$)
+      {{Cl|_FONT}} f&amp;
+    {{Cl|CASE}} &quot;2&quot;
+      {{Cl|_FULLSCREEN}} _SQUAREPIXELS
+      full = {{Cl|_FULLSCREEN (function)|_FULLSCREEN}}
+      {{Cl|IF}} full = 0 {{Cl|THEN}} {{Cl|GOSUB}} FCHECK
+    {{Cl|CASE}} &quot;3&quot;
+      {{Cl|_FULLSCREEN}} _STRETCH
+      full = {{Cl|_FULLSCREEN (function)|_FULLSCREEN}}
+      {{Cl|IF}} full = 0 {{Cl|THEN}} {{Cl|GOSUB}} FCHECK
+  {{Cl|END SELECT}}
+
+  mode = {{Cl|_FULLSCREEN (function)|_FULLSCREEN}}
+  {{Cl|PRINT}}
+  {{Cl|PRINT}} &quot;_FULLSCREEN mode =&quot;; mode,
+  {{Cl|PRINT}} &quot;PRESS ESC {{Cl|TO}} {{Cl|END}} {{Cl|OR}} ENTER {{Cl|TO}} CONTINUE...&quot;
+
+  {{Cl|DO}}: {{Cl|SLEEP}}: B$ = {{Cl|INKEY$}}: {{Cl|LOOP}} {{Cl|UNTIL}} B$ = {{Cl|CHR$}}(13) {{Cl|OR}} B$ = {{Cl|CHR$}}(27)
+
+  {{Cl|GOSUB}} ClearFont
+
+{{Cl|LOOP}} {{Cl|UNTIL}} B$ = {{Cl|CHR$}}(27) 
+ClearFont
+{{Cl|END}}
+
+FCHECK:
+Z3 = timer
+{{Cl|DO}}
+{{Cl|IF}} {{Cl|TIMER (statement)|TIMER }}&lt; Z3 {{Cl|THEN}} Z3 = Z3 - {{Cl|TIMER}}
+{{Cl|IF}} {{Cl|TIMER (statement)|TIMER }}- Z3 &gt; 4 {{Cl|THEN}} {{Cl|EXIT DO}}
+{{Cl|LOOP}}
+full = {{Cl|_FULLSCREEN (function)|_FULLSCREEN}}
+{{Cl|IF}} full = 0 {{Cl|THEN}} {{Cl|_FULLSCREEN}} _{{Cl|OFF}}: {{Cl|SOUND}} 100, .75
+{{Cl|RETURN}}
+
+ClearFont: 
+{{Cl|IF}} f&amp; &gt; 0 {{Cl|THEN}}
+    {{Cl|_FONT}} 16 'select inbuilt 8x16 default font
+    {{Cl|_FREEFONT}} f&amp;
+{{Cl|END IF}}
+{{Cl|RETURN}}    
+ 
+{{CodeEnd}}
+
+
+
+
+
+{{PageSeeAlso}}
+* [[_FULLSCREEN (function)]]
+* [[_FONT]], [[SCREEN]] 
+* [[_SCREENIMAGE]]
+* [[_SCREENMOVE]], [[_SCREENX]], [[_SCREENY]]
+
+
+{{PageNavigation}}

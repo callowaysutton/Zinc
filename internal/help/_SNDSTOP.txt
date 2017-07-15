@@ -1,0 +1,23 @@
+{{DISPLAYTITLE:_SNDSTOP}}
+The [[_SNDSTOP]] statement stops a playing or paused sound using a handle from the [[_SNDOPEN]] or [[_SNDCOPY]] Functions.
+
+
+{{PageSyntax}}
+::: _SNDSTOP]] {{Parameter|handle&amp;}}
+
+
+{{PageDescription}}
+* Sounds can be resumed using {{KW|_SNDPLAY}} with the correct handle.
+
+
+''Example:''
+{{CodeStart}} '' ''
+{{Cl|_SNDSTOP}} h&amp; '' ''
+{{CodeEnd}}
+
+
+{{PageSeeAlso}}
+* [[_SNDPAUSE]]
+
+
+{{PageNavigation}}

@@ -1,0 +1,9 @@
+case 1:
+SUB_VWATCH64_VARIABLEWATCH();
+break;
+case 2:
+SUB___UI_DOEVENTS();
+break;
+case 3:
+SUB___UI_UPDATEDISPLAY();
+break;

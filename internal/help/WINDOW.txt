@@ -1,0 +1,54 @@
+The [[WINDOW]] graphics statement defines the coordinate dimensions of the current graphics view port or closes it.
+
+
+{{PageSyntax}}'''
+: '''WINDOW''' [[SCREEN] (''column1'', ''row1'')-(''column2'', ''row2'')]
+
+
+{{Parameters}}
+* If no statement parameters are used, the previous WINDOW view port area is disabled. 
+* The SCREEN option inverts Cartesian row values to increase from negative to 0 to positive. Columns unchanged.   
+* If the SCREEN option is not used, rows use the Cartesian system with highest row at top to lowest row at bottom.
+* Optional coordinate values redefine the [[SINGLE]] negative or positive port dimension values when desired.
+
+
+{{PageDescription}}
+* The statement allows a program to create a custom graphic coordinate system independent of the [[SCREEN]] mode used.
+* WINDOW dimensions can be greater than the [[SCREEN]] mode size to create larger images for pictures.
+* A [[VIEW]] statement can change the viewport area.
+* All subsequent graphics statements will use the new coordinate system.
+* Use [[CLS]] or [[CLS|CLS 1]] to clear the active WINDOW view port area. 
+* [[RUN]] or a [[SCREEN (statement)|SCREEN]] statement will also disable the window viewport.
+* Note: '''QB64''' can create a custom sized window using [[_NEWIMAGE]].
+* '''Note: QB64 [[RUN]] statements will not close [[VIEW PRINT]], [[VIEW]] or [[WINDOW]] view ports presently!'''
+
+
+''Example:'' Using a WINDOW to amplify circle sizes. [[PMAP]] finds the corresponding WINDOW co-ordinates.
+{{CodeStart}}
+{{Cl|SCREEN}} 12
+{{Cl|WINDOW}} (0, 0)-(10, 10)  'uses Cartesian row co-ordinates
+{{Cl|PRINT}} &quot;Click mouse to place a circle. Hit enter for next color.&quot;
+{{Cl|FOR...NEXT|FOR}} clr = 1 {{Cl|TO}} 15
+  {{Cl|DO}}
+    {{Cl|DO}}
+      {{Cl|IF...THEN|IF}} {{Cl|_MOUSEBUTTON}}(1) {{Cl|THEN}}        
+        x! = {{Cl|PMAP}}({{Cl|_MOUSEX}}, 2) ' Convert mouse screen co-ordinates to window co-ordinates.
+        y! = {{Cl|PMAP}}({{Cl|_MOUSEY}}, 3)
+        {{Cl|CIRCLE}} (x!, y!), .2, clr
+        {{Cl|PAINT}} {{Cl|STEP}}(0, 0), clr
+      {{Cl|END IF}}
+    {{Cl|LOOP}} {{Cl|WHILE}} {{Cl|_MOUSEINPUT}}
+  {{Cl|LOOP}} {{Cl|UNTIL}} {{Cl|INKEY$}} = {{Cl|CHR$}}(13)
+{{Cl|NEXT}} '' ''
+{{CodeEnd}}
+
+
+{{PageSeeAlso}}
+* [[PMAP]]
+* [[VIEW]] {{text|(graphics view port)}}
+* [[VIEW PRINT]] {{text|(text view port)}}
+* [[_NEWIMAGE]], [[_LOADIMAGE]]
+* [https://en.wikipedia.org/wiki/Cartesian_coordinate_system Cartesian coordinate system]
+
+
+{{PageNavigation}}

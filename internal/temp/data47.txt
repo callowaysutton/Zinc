@@ -1,0 +1,12 @@
+qbs *_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0=NULL;
+if (!_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0)_FUNC___UI_TRIMAT0_STRING___UI_TRIMAT0=qbs_new(0,0);
+qbs*oldstr8047=NULL;
+if(_FUNC___UI_TRIMAT0_STRING_TEXT->tmp||_FUNC___UI_TRIMAT0_STRING_TEXT->fixed||_FUNC___UI_TRIMAT0_STRING_TEXT->readonly){
+oldstr8047=_FUNC___UI_TRIMAT0_STRING_TEXT;
+if (oldstr8047->cmem_descriptor){
+_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new_cmem(oldstr8047->len,0);
+}else{
+_FUNC___UI_TRIMAT0_STRING_TEXT=qbs_new(oldstr8047->len,0);
+}
+memcpy(_FUNC___UI_TRIMAT0_STRING_TEXT->chr,oldstr8047->chr,oldstr8047->len);
+}

@@ -1,0 +1,26 @@
+float *_FUNC___UI_GETID_SINGLE___UI_GETID=NULL;
+if(_FUNC___UI_GETID_SINGLE___UI_GETID==NULL){
+_FUNC___UI_GETID_SINGLE___UI_GETID=(float*)mem_static_malloc(4);
+*_FUNC___UI_GETID_SINGLE___UI_GETID=0;
+}
+qbs*oldstr7914=NULL;
+if(_FUNC___UI_GETID_STRING_CONTROLNAME->tmp||_FUNC___UI_GETID_STRING_CONTROLNAME->fixed||_FUNC___UI_GETID_STRING_CONTROLNAME->readonly){
+oldstr7914=_FUNC___UI_GETID_STRING_CONTROLNAME;
+if (oldstr7914->cmem_descriptor){
+_FUNC___UI_GETID_STRING_CONTROLNAME=qbs_new_cmem(oldstr7914->len,0);
+}else{
+_FUNC___UI_GETID_STRING_CONTROLNAME=qbs_new(oldstr7914->len,0);
+}
+memcpy(_FUNC___UI_GETID_STRING_CONTROLNAME->chr,oldstr7914->chr,oldstr7914->len);
+}
+int32 *_FUNC___UI_GETID_LONG_I=NULL;
+if(_FUNC___UI_GETID_LONG_I==NULL){
+_FUNC___UI_GETID_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC___UI_GETID_LONG_I=0;
+}
+qbs *_FUNC___UI_GETID_STRING_CONTROLSEARCH=NULL;
+if (!_FUNC___UI_GETID_STRING_CONTROLSEARCH)_FUNC___UI_GETID_STRING_CONTROLSEARCH=qbs_new(0,0);
+int64 fornext_value7916;
+int64 fornext_finalvalue7916;
+int64 fornext_step7916;
+uint8 fornext_step_negative7916;

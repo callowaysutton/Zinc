@@ -1,0 +1,12 @@
+int32 *_SUB___UI_LOADFORM_LONG___UI_NEWID=NULL;
+if(_SUB___UI_LOADFORM_LONG___UI_NEWID==NULL){
+_SUB___UI_LOADFORM_LONG___UI_NEWID=(int32*)mem_static_malloc(4);
+*_SUB___UI_LOADFORM_LONG___UI_NEWID=0;
+}
+int16 pass8171;
+int16 pass8172;
+int16 pass8173;
+int16 pass8174;
+int16 pass8175;
+int32 pass8176;
+int16 pass8177;
