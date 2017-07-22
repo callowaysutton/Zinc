@@ -1,0 +1,53 @@
+CONST SM_CXSCREEN = 0 'Width of user desktop
+CONST SM_CYSCREEN = 1 'Height of user desktop
+CONST SM_CXFULLSCREEN = 16 ' Width of window client area
+CONST SM_CYFULLSCREEN = 17 ' Height of window client area
+CONST SM_CYMENU = 15 ' Height of menu
+CONST SM_CYCAPTION = 4 ' Height of caption or title
+CONST SM_CXFRAME = 32 ' Width of window frame
+CONST SM_CYFRAME = 33 ' Height of window frame
+CONST SM_CXHSCROLL = 21 ' Width of arrow bitmap on horizontal scroll bar
+CONST SM_CYHSCROLL = 3 ' Height of arrow bitmap on horizontal scroll bar
+CONST SM_CXVSCROLL = 2 ' Width of arrow bitmap on vertical scroll bar
+CONST SM_CYVSCROLL = 20 ' Height of arrow bitmap on vertical scroll bar
+CONST SM_CXSIZE = 30 ' Width of bitmaps in title bar
+CONST SM_CYSIZE = 31 ' Height of bitmaps in title bar
+CONST SM_CXCURSOR = 13 ' Width of cursor
+CONST SM_CYCURSOR = 14 ' Height of cursor
+CONST SM_CXBORDER = 5 ' Width of window frame that cannot be sized
+CONST SM_CYBORDER = 6 ' Height of window frame that cannot be sized
+CONST SM_CXDOUBLECLICK = 36 ' Width of rectangle around the location of the first click.
+CONST SM_CYDOUBLECLICK = 37 ' Height of rectangle around the location of the first click.
+CONST SM_CXDLGFRAME = 7 ' Width of dialog frame window
+CONST SM_CYDLGFRAME = 8 ' Height of dialog frame window
+CONST SM_CXICON = 11 ' Width of icon
+CONST SM_CYICON = 12 ' Height of icon
+CONST SM_CXICONSPACING = 38 ' Width of rectangles the system uses to position tiled icons
+CONST SM_CYICONSPACING = 39 ' Height of rectangles the system uses to position tiled icons
+CONST SM_CXMIN = 28 ' Minimum width of window
+CONST SM_CYMIN = 29 ' Minimum height of window
+CONST SM_CXMINTRACK = 34 ' Minimum tracking width of window
+CONST SM_CYMINTRACK = 35 ' Minimum tracking height of window
+CONST SM_CXHTHUMB = 10 ' Width of scroll box (thumb) on horizontal scroll bar
+CONST SM_CYVTHUMB = 9 ' Width of scroll box (thumb) on vertical scroll bar
+CONST SM_DBCSENABLED = 42 ' Returns a non-zero if the current Windows version uses double-byte characters, otherwise zero
+CONST SM_DEBUG = 22 ' Returns non-zero if the Windows version is a debugging version
+CONST SM_MENUDROPALIGNMENT = 40 'Alignment of pop-up menus.
+CONST SM_MOUSEPRESENT = 19 ' Non-zero if mouse hardware is installed
+CONST SM_PENWINDOWS = 41 ' Handle of Pen Windows dynamic link library if Pen Windows is installed
+CONST SM_SWAPBUTTON = 23 ' Non-zero if the left and right mouse buttons are swapped
+
+DECLARE LIBRARY
+    FUNCTION GetSystemMetrics& (BYVAL n AS LONG)
+END DECLARE
+
+PRINT trimstr$(GetSystemMetrics(SM_CXSCREEN)); "x"; trimstr$(GetSystemMetrics(SM_CYSCREEN))
+
+s& = _SCREENIMAGE
+PRINT _WIDTH(s&); "X"; _HEIGHT(s&)
+
+END 3
+
+FUNCTION trimstr$ (whatever)
+trimstr = LTRIM$(RTRIM$(STR$(whatever)))
+END FUNCTION  

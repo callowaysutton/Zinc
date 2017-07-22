@@ -1,0 +1,19 @@
+CONST SND_SYNC = 0 'Windows controlled
+CONST SND_ASYNC = 1 'user controlled
+CONST SND_NODEFAULT = 2 'only plays sound file requested
+CONST SND_LOOP = 8 'loops the sound. Use ASYNC also to stop later
+CONST SND_NOSTOP = &H10 'does not allow a sound to be stopped
+CONST SND_NOWAIT = &H2000 'will not play sound if driver is busy
+CONST SND_PURGE = &H40 'stop any sound playing 
+
+DECLARE DYNAMIC LIBRARY "winmm"
+  FUNCTION PlaySound% ALIAS PlaySoundA (lpszName AS STRING, BYVAL hModule AS INTEGER, BYVAL dwFlags AS INTEGER)
+END DECLARE
+
+LINE INPUT "Enter WAV sound file name: ", FileName$
+PRINT "Play asynchronously?(Y/N) ";
+K$ = UCASE$(INPUT$(1))
+PRINT K$
+IF K$ = "Y" THEN Synch = SND_ASYNC ELSE Synch = SND_SYNC
+
+retval% = PlaySound(FileName$, 0, Synch) 

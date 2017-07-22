@@ -1,0 +1,816 @@
+$CHECKING:OFF
+': Controls' IDs: ------------------------------------------------------------------
+DIM SHARED Zinc AS LONG
+DIM SHARED FileMenu AS LONG
+DIM SHARED EditMenu AS LONG
+DIM SHARED SettingsMenu AS LONG
+DIM SHARED ExploreMenu AS LONG
+DIM SHARED PluginsMenu AS LONG
+DIM SHARED HelpMenu AS LONG
+DIM SHARED Frame1 AS LONG
+DIM SHARED CommandsPallete AS LONG
+DIM SHARED Sprite AS LONG
+DIM SHARED Scripting AS LONG
+DIM SHARED FileMenuNew AS LONG
+DIM SHARED FileMenuOpen AS LONG
+DIM SHARED FileMenuSave AS LONG
+DIM SHARED FileMenuSaveAs AS LONG
+DIM SHARED FileMenuImportProject AS LONG
+DIM SHARED FileMenuExportSprite AS LONG
+DIM SHARED FileMenuProjectNotes AS LONG
+DIM SHARED FileMenuQuit AS LONG
+DIM SHARED EditMenuUndelete AS LONG
+DIM SHARED EditMenuStartSingleStepping AS LONG
+DIM SHARED EditMenuSetSingleStepping AS LONG
+DIM SHARED EditMenuCompressSounds AS LONG
+DIM SHARED EditMenuCompressImages AS LONG
+DIM SHARED EditMenuEditSourceCode AS LONG
+DIM SHARED EditMenuEditBlockCatagories AS LONG
+DIM SHARED SettingsMenuMotorBlocks AS LONG
+DIM SHARED SettingsMenuCompatabiltyMode AS LONG
+DIM SHARED SettingsMenuStartWhenOpened AS LONG
+DIM SHARED SettingsMenuMalwareProtection AS LONG
+DIM SHARED SettingsMenuSubcatagories AS LONG
+DIM SHARED SettingsMenuHostMesh AS LONG
+DIM SHARED SettingsMenuJoinMesh AS LONG
+DIM SHARED PluginsMenuBuildAPlugin AS LONG
+DIM SHARED PluginsMenuHelp AS LONG
+DIM SHARED HelpMenuReadMeFile AS LONG
+DIM SHARED HelpMenuHelpPage AS LONG
+DIM SHARED HelpMenuHelpScreens AS LONG
+DIM SHARED HelpMenuAboutExplore AS LONG
+DIM SHARED HelpMenuScratch2 AS LONG
+DIM SHARED HelpMenuLicense AS LONG
+DIM SHARED MotionBT AS LONG
+DIM SHARED ControlBT AS LONG
+DIM SHARED LooksBT AS LONG
+DIM SHARED SensingBT AS LONG
+DIM SHARED StringsBT AS LONG
+DIM SHARED OperatorsBT AS LONG
+DIM SHARED SoundBT AS LONG
+DIM SHARED PenBT AS LONG
+DIM SHARED DataBT AS LONG
+DIM SHARED ObjectsBT AS LONG
+DIM SHARED FilesBT AS LONG
+DIM SHARED ConnectBT AS LONG
+DIM SHARED ProgramBT AS LONG
+DIM SHARED MoreBT AS LONG
+DIM SHARED PictureBox1 AS LONG
+DIM SHARED SpriteCaption AS LONG
+DIM SHARED MenuItem31 AS LONG
+DIM SHARED Label1 AS LONG
+
+': External modules: ---------------------------------------------------------------
+'$INCLUDE:'InForm\InForm.ui'
+'$INCLUDE:'InForm\xp.uitheme'
+'$INCLUDE:'Zinc.frm'
+
+': Event procedures: ---------------------------------------------------------------
+SUB __UI_BeforeInit
+
+END SUB
+
+SUB __UI_OnLoad
+
+END SUB
+
+SUB __UI_BeforeUpdateDisplay
+
+END SUB
+
+SUB __UI_BeforeUnload
+
+END SUB
+
+SUB __UI_Click (id AS LONG)
+SELECT CASE id
+    CASE Zinc
+
+    CASE FileMenu
+
+    CASE EditMenu
+
+    CASE SettingsMenu
+
+    CASE ExploreMenu
+
+    CASE PluginsMenu
+
+    CASE HelpMenu
+
+    CASE Frame1
+
+    CASE CommandsPallete
+
+    CASE Sprite
+
+    CASE Scripting
+
+    CASE FileMenuNew
+
+    CASE FileMenuOpen
+
+    CASE FileMenuSave
+
+    CASE FileMenuSaveAs
+
+    CASE FileMenuImportProject
+
+    CASE FileMenuExportSprite
+
+    CASE FileMenuProjectNotes
+
+    CASE FileMenuQuit
+
+    CASE EditMenuUndelete
+
+    CASE EditMenuStartSingleStepping
+
+    CASE EditMenuSetSingleStepping
+
+    CASE EditMenuCompressSounds
+
+    CASE EditMenuCompressImages
+
+    CASE EditMenuEditSourceCode
+
+    CASE EditMenuEditBlockCatagories
+
+    CASE SettingsMenuMotorBlocks
+
+    CASE SettingsMenuCompatabiltyMode
+
+    CASE SettingsMenuStartWhenOpened
+
+    CASE SettingsMenuMalwareProtection
+
+    CASE SettingsMenuSubcatagories
+
+    CASE SettingsMenuHostMesh
+
+    CASE SettingsMenuJoinMesh
+
+    CASE PluginsMenuBuildAPlugin
+
+    CASE PluginsMenuHelp
+
+    CASE HelpMenuReadMeFile
+
+    CASE HelpMenuHelpPage
+
+    CASE HelpMenuHelpScreens
+
+    CASE HelpMenuAboutExplore
+
+    CASE HelpMenuScratch2
+
+    CASE HelpMenuLicense
+
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE PictureBox1
+
+    CASE SpriteCaption
+
+    CASE MenuItem31
+
+    CASE Label1
+
+END SELECT
+END SUB
+
+SUB __UI_MouseEnter (id AS LONG)
+SELECT CASE id
+    CASE Zinc
+
+    CASE FileMenu
+
+    CASE EditMenu
+
+    CASE SettingsMenu
+
+    CASE ExploreMenu
+
+    CASE PluginsMenu
+
+    CASE HelpMenu
+
+    CASE Frame1
+
+    CASE CommandsPallete
+
+    CASE Sprite
+
+    CASE Scripting
+
+    CASE FileMenuNew
+
+    CASE FileMenuOpen
+
+    CASE FileMenuSave
+
+    CASE FileMenuSaveAs
+
+    CASE FileMenuImportProject
+
+    CASE FileMenuExportSprite
+
+    CASE FileMenuProjectNotes
+
+    CASE FileMenuQuit
+
+    CASE EditMenuUndelete
+
+    CASE EditMenuStartSingleStepping
+
+    CASE EditMenuSetSingleStepping
+
+    CASE EditMenuCompressSounds
+
+    CASE EditMenuCompressImages
+
+    CASE EditMenuEditSourceCode
+
+    CASE EditMenuEditBlockCatagories
+
+    CASE SettingsMenuMotorBlocks
+
+    CASE SettingsMenuCompatabiltyMode
+
+    CASE SettingsMenuStartWhenOpened
+
+    CASE SettingsMenuMalwareProtection
+
+    CASE SettingsMenuSubcatagories
+
+    CASE SettingsMenuHostMesh
+
+    CASE SettingsMenuJoinMesh
+
+    CASE PluginsMenuBuildAPlugin
+
+    CASE PluginsMenuHelp
+
+    CASE HelpMenuReadMeFile
+
+    CASE HelpMenuHelpPage
+
+    CASE HelpMenuHelpScreens
+
+    CASE HelpMenuAboutExplore
+
+    CASE HelpMenuScratch2
+
+    CASE HelpMenuLicense
+
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE PictureBox1
+
+    CASE SpriteCaption
+
+    CASE MenuItem31
+
+    CASE Label1
+
+END SELECT
+END SUB
+
+SUB __UI_MouseLeave (id AS LONG)
+SELECT CASE id
+    CASE Zinc
+
+    CASE FileMenu
+
+    CASE EditMenu
+
+    CASE SettingsMenu
+
+    CASE ExploreMenu
+
+    CASE PluginsMenu
+
+    CASE HelpMenu
+
+    CASE Frame1
+
+    CASE CommandsPallete
+
+    CASE Sprite
+
+    CASE Scripting
+
+    CASE FileMenuNew
+
+    CASE FileMenuOpen
+
+    CASE FileMenuSave
+
+    CASE FileMenuSaveAs
+
+    CASE FileMenuImportProject
+
+    CASE FileMenuExportSprite
+
+    CASE FileMenuProjectNotes
+
+    CASE FileMenuQuit
+
+    CASE EditMenuUndelete
+
+    CASE EditMenuStartSingleStepping
+
+    CASE EditMenuSetSingleStepping
+
+    CASE EditMenuCompressSounds
+
+    CASE EditMenuCompressImages
+
+    CASE EditMenuEditSourceCode
+
+    CASE EditMenuEditBlockCatagories
+
+    CASE SettingsMenuMotorBlocks
+
+    CASE SettingsMenuCompatabiltyMode
+
+    CASE SettingsMenuStartWhenOpened
+
+    CASE SettingsMenuMalwareProtection
+
+    CASE SettingsMenuSubcatagories
+
+    CASE SettingsMenuHostMesh
+
+    CASE SettingsMenuJoinMesh
+
+    CASE PluginsMenuBuildAPlugin
+
+    CASE PluginsMenuHelp
+
+    CASE HelpMenuReadMeFile
+
+    CASE HelpMenuHelpPage
+
+    CASE HelpMenuHelpScreens
+
+    CASE HelpMenuAboutExplore
+
+    CASE HelpMenuScratch2
+
+    CASE HelpMenuLicense
+
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE PictureBox1
+
+    CASE SpriteCaption
+
+    CASE MenuItem31
+
+    CASE Label1
+
+END SELECT
+END SUB
+
+SUB __UI_FocusIn (id AS LONG)
+SELECT CASE id
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE SpriteCaption
+
+END SELECT
+END SUB
+
+SUB __UI_FocusOut (id AS LONG)
+SELECT CASE id
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE SpriteCaption
+
+END SELECT
+END SUB
+
+SUB __UI_MouseDown (id AS LONG)
+SELECT CASE id
+    CASE Zinc
+
+    CASE FileMenu
+
+    CASE EditMenu
+
+    CASE SettingsMenu
+
+    CASE ExploreMenu
+
+    CASE PluginsMenu
+
+    CASE HelpMenu
+
+    CASE Frame1
+
+    CASE CommandsPallete
+
+    CASE Sprite
+
+    CASE Scripting
+
+    CASE FileMenuNew
+
+    CASE FileMenuOpen
+
+    CASE FileMenuSave
+
+    CASE FileMenuSaveAs
+
+    CASE FileMenuImportProject
+
+    CASE FileMenuExportSprite
+
+    CASE FileMenuProjectNotes
+
+    CASE FileMenuQuit
+
+    CASE EditMenuUndelete
+
+    CASE EditMenuStartSingleStepping
+
+    CASE EditMenuSetSingleStepping
+
+    CASE EditMenuCompressSounds
+
+    CASE EditMenuCompressImages
+
+    CASE EditMenuEditSourceCode
+
+    CASE EditMenuEditBlockCatagories
+
+    CASE SettingsMenuMotorBlocks
+
+    CASE SettingsMenuCompatabiltyMode
+
+    CASE SettingsMenuStartWhenOpened
+
+    CASE SettingsMenuMalwareProtection
+
+    CASE SettingsMenuSubcatagories
+
+    CASE SettingsMenuHostMesh
+
+    CASE SettingsMenuJoinMesh
+
+    CASE PluginsMenuBuildAPlugin
+
+    CASE PluginsMenuHelp
+
+    CASE HelpMenuReadMeFile
+
+    CASE HelpMenuHelpPage
+
+    CASE HelpMenuHelpScreens
+
+    CASE HelpMenuAboutExplore
+
+    CASE HelpMenuScratch2
+
+    CASE HelpMenuLicense
+
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE PictureBox1
+
+    CASE SpriteCaption
+
+    CASE MenuItem31
+
+    CASE Label1
+
+END SELECT
+END SUB
+
+SUB __UI_MouseUp (id AS LONG)
+SELECT CASE id
+    CASE Zinc
+
+    CASE FileMenu
+
+    CASE EditMenu
+
+    CASE SettingsMenu
+
+    CASE ExploreMenu
+
+    CASE PluginsMenu
+
+    CASE HelpMenu
+
+    CASE Frame1
+
+    CASE CommandsPallete
+
+    CASE Sprite
+
+    CASE Scripting
+
+    CASE FileMenuNew
+
+    CASE FileMenuOpen
+
+    CASE FileMenuSave
+
+    CASE FileMenuSaveAs
+
+    CASE FileMenuImportProject
+
+    CASE FileMenuExportSprite
+
+    CASE FileMenuProjectNotes
+
+    CASE FileMenuQuit
+
+    CASE EditMenuUndelete
+
+    CASE EditMenuStartSingleStepping
+
+    CASE EditMenuSetSingleStepping
+
+    CASE EditMenuCompressSounds
+
+    CASE EditMenuCompressImages
+
+    CASE EditMenuEditSourceCode
+
+    CASE EditMenuEditBlockCatagories
+
+    CASE SettingsMenuMotorBlocks
+
+    CASE SettingsMenuCompatabiltyMode
+
+    CASE SettingsMenuStartWhenOpened
+
+    CASE SettingsMenuMalwareProtection
+
+    CASE SettingsMenuSubcatagories
+
+    CASE SettingsMenuHostMesh
+
+    CASE SettingsMenuJoinMesh
+
+    CASE PluginsMenuBuildAPlugin
+
+    CASE PluginsMenuHelp
+
+    CASE HelpMenuReadMeFile
+
+    CASE HelpMenuHelpPage
+
+    CASE HelpMenuHelpScreens
+
+    CASE HelpMenuAboutExplore
+
+    CASE HelpMenuScratch2
+
+    CASE HelpMenuLicense
+
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE PictureBox1
+
+    CASE SpriteCaption
+
+    CASE MenuItem31
+
+    CASE Label1
+
+END SELECT
+END SUB
+
+SUB __UI_KeyPress (id AS LONG)
+SELECT CASE id
+    CASE MotionBT
+
+    CASE ControlBT
+
+    CASE LooksBT
+
+    CASE SensingBT
+
+    CASE StringsBT
+
+    CASE OperatorsBT
+
+    CASE SoundBT
+
+    CASE PenBT
+
+    CASE DataBT
+
+    CASE ObjectsBT
+
+    CASE FilesBT
+
+    CASE ConnectBT
+
+    CASE ProgramBT
+
+    CASE MoreBT
+
+    CASE SpriteCaption
+
+END SELECT
+END SUB
+
+SUB __UI_TextChanged (id AS LONG)
+SELECT CASE id
+    CASE SpriteCaption
+
+END SELECT
+END SUB
+
+SUB __UI_ValueChanged (id AS LONG)
+SELECT CASE id
+END SELECT
+END SUB
+
