@@ -25,7 +25,7 @@ weak_library_names=''
 # Version information for libstdc++.
 current=6
 age=0
-revision=17
+revision=23
 
 # Is this an already installed library?
 installed=yes
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/drangon/work/mingw-w64-dgn_32/target/lib/../lib'
+libdir='/home/drangon/work/mingw-w64-dgn/target/lib/../lib'

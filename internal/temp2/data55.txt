@@ -18,7 +18,7 @@ if(_SUB___UI_REFRESHMENUBAR_LONG_LASTMENUITEM==NULL){
 _SUB___UI_REFRESHMENUBAR_LONG_LASTMENUITEM=(int32*)mem_static_malloc(4);
 *_SUB___UI_REFRESHMENUBAR_LONG_LASTMENUITEM=0;
 }
-int64 fornext_value2906;
-int64 fornext_finalvalue2906;
-int64 fornext_step2906;
-uint8 fornext_step_negative2906;
+int64 fornext_value3612;
+int64 fornext_finalvalue3612;
+int64 fornext_step3612;
+uint8 fornext_step_negative3612;

@@ -17,7 +17,7 @@ _SUB_REMOVEITEM_LONG_FINDLF=(int32*)mem_static_malloc(4);
 }
 qbs *_SUB_REMOVEITEM_STRING_TEMPCAPTION=NULL;
 if (!_SUB_REMOVEITEM_STRING_TEMPCAPTION)_SUB_REMOVEITEM_STRING_TEMPCAPTION=qbs_new(0,0);
-byte_element_struct *byte_element_2848=NULL;
-if (!byte_element_2848){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2848=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2848=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3554=NULL;
+if (!byte_element_3554){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3554=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3554=(byte_element_struct*)mem_static_malloc(12);
 }

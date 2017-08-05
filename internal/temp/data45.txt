@@ -13,14 +13,14 @@ if(_SUB___UI_ACTIVATEMENU_INTEGER_TOTALITEMS==NULL){
 _SUB___UI_ACTIVATEMENU_INTEGER_TOTALITEMS=(int16*)mem_static_malloc(2);
 *_SUB___UI_ACTIVATEMENU_INTEGER_TOTALITEMS=0;
 }
-int16 pass8038;
-int16 pass8039;
-int16 pass8040;
-int16 pass8041;
-int16 pass8042;
-int32 pass8043;
-int64 fornext_value8045;
-int64 fornext_finalvalue8045;
-int64 fornext_step8045;
-uint8 fornext_step_negative8045;
-float pass8046;
+int16 pass662;
+int16 pass663;
+int16 pass664;
+int16 pass665;
+int16 pass666;
+int32 pass667;
+int64 fornext_value669;
+int64 fornext_finalvalue669;
+int64 fornext_step669;
+uint8 fornext_step_negative669;
+float pass670;

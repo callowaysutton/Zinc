@@ -3,8 +3,8 @@ if(_SUB___UI_DESTROYCONTROL_LONG_I==NULL){
 _SUB___UI_DESTROYCONTROL_LONG_I=(int32*)mem_static_malloc(4);
 *_SUB___UI_DESTROYCONTROL_LONG_I=0;
 }
-int64 fornext_value2798;
-int64 fornext_finalvalue2798;
-int64 fornext_step2798;
-uint8 fornext_step_negative2798;
-int32 pass2799;
+int64 fornext_value3504;
+int64 fornext_finalvalue3504;
+int64 fornext_step3504;
+uint8 fornext_step_negative3504;
+int32 pass3505;

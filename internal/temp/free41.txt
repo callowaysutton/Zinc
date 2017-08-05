@@ -1,5 +1,5 @@
-if(oldstr8014){
-if(oldstr8014->fixed)qbs_set(oldstr8014,_FUNC___UI_WORDWRAP_STRING_PASSEDTEXT);
+if(oldstr638){
+if(oldstr638->fixed)qbs_set(oldstr638,_FUNC___UI_WORDWRAP_STRING_PASSEDTEXT);
 qbs_free(_FUNC___UI_WORDWRAP_STRING_PASSEDTEXT);
 }
 qbs_free(_FUNC___UI_WORDWRAP_STRING_TEMP);

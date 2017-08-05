@@ -15,9 +15,9 @@ _SUB___UI_DRAWLISTBOX_INTEGER_CAPTIONINDENT=(int16*)mem_static_malloc(2);
 }
 qbs *_SUB___UI_DRAWLISTBOX_STRING_TEMPCAPTION=NULL;
 if (!_SUB___UI_DRAWLISTBOX_STRING_TEMPCAPTION)_SUB___UI_DRAWLISTBOX_STRING_TEMPCAPTION=qbs_new(0,0);
-byte_element_struct *byte_element_2969=NULL;
-if (!byte_element_2969){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2969=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2969=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3675=NULL;
+if (!byte_element_3675){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3675=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3675=(byte_element_struct*)mem_static_malloc(12);
 }
 qbs *_SUB___UI_DRAWLISTBOX_STRING_TEMPTEXT=NULL;
 if (!_SUB___UI_DRAWLISTBOX_STRING_TEMPTEXT)_SUB___UI_DRAWLISTBOX_STRING_TEMPTEXT=qbs_new(0,0);
@@ -41,13 +41,13 @@ if(_SUB___UI_DRAWLISTBOX_INTEGER_LASTVISIBLEITEM==NULL){
 _SUB___UI_DRAWLISTBOX_INTEGER_LASTVISIBLEITEM=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWLISTBOX_INTEGER_LASTVISIBLEITEM=0;
 }
-byte_element_struct *byte_element_2970=NULL;
-if (!byte_element_2970){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2970=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2970=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3676=NULL;
+if (!byte_element_3676){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3676=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3676=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass2972;
-static int32 sc_2973;
-int16 pass2974;
-int16 pass2975;
-int16 pass2976;
-int8 pass2977;
+int16 pass3678;
+static int32 sc_3679;
+int16 pass3680;
+int16 pass3681;
+int16 pass3682;
+int8 pass3683;

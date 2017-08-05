@@ -35,14 +35,14 @@ if(_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT==NULL){
 _SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWBUTTON_INTEGER_ICONHEIGHT=0;
 }
-byte_element_struct *byte_element_8067=NULL;
-if (!byte_element_8067){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8067=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8067=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_691=NULL;
+if (!byte_element_691){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_691=(byte_element_struct*)(mem_static_pointer-12); else byte_element_691=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_8068=NULL;
-if (!byte_element_8068){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8068=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8068=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_692=NULL;
+if (!byte_element_692){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_692=(byte_element_struct*)(mem_static_pointer-12); else byte_element_692=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8069;
-int16 pass8070;
-int16 pass8071;
+int16 pass693;
+int16 pass694;
+int16 pass695;

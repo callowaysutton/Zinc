@@ -24,11 +24,11 @@ _SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[5]=0;
 _SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[6]=0;
 _SUB___UI_LISTBOXSEARCHITEM_ARRAY_STRING_LISTITEMS[0]=(ptrszint)&nothingstring;
 }
-byte_element_struct *byte_element_2854=NULL;
-if (!byte_element_2854){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2854=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2854=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3560=NULL;
+if (!byte_element_3560){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3560=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3560=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_2857=NULL;
-if (!byte_element_2857){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2857=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2857=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3563=NULL;
+if (!byte_element_3563){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3563=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3563=(byte_element_struct*)mem_static_malloc(12);
 }

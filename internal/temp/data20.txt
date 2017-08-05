@@ -1,12 +1,12 @@
-qbs*oldstr7955=NULL;
+qbs*oldstr579=NULL;
 if(_SUB_LOADIMAGE_STRING_FILE->tmp||_SUB_LOADIMAGE_STRING_FILE->fixed||_SUB_LOADIMAGE_STRING_FILE->readonly){
-oldstr7955=_SUB_LOADIMAGE_STRING_FILE;
-if (oldstr7955->cmem_descriptor){
-_SUB_LOADIMAGE_STRING_FILE=qbs_new_cmem(oldstr7955->len,0);
+oldstr579=_SUB_LOADIMAGE_STRING_FILE;
+if (oldstr579->cmem_descriptor){
+_SUB_LOADIMAGE_STRING_FILE=qbs_new_cmem(oldstr579->len,0);
 }else{
-_SUB_LOADIMAGE_STRING_FILE=qbs_new(oldstr7955->len,0);
+_SUB_LOADIMAGE_STRING_FILE=qbs_new(oldstr579->len,0);
 }
-memcpy(_SUB_LOADIMAGE_STRING_FILE->chr,oldstr7955->chr,oldstr7955->len);
+memcpy(_SUB_LOADIMAGE_STRING_FILE->chr,oldstr579->chr,oldstr579->len);
 }
 int32 *_SUB_LOADIMAGE_LONG_PREVDEST=NULL;
 if(_SUB_LOADIMAGE_LONG_PREVDEST==NULL){
@@ -15,11 +15,11 @@ _SUB_LOADIMAGE_LONG_PREVDEST=(int32*)mem_static_malloc(4);
 }
 qbs *_SUB_LOADIMAGE_STRING_ERRORMESSAGE=NULL;
 if (!_SUB_LOADIMAGE_STRING_ERRORMESSAGE)_SUB_LOADIMAGE_STRING_ERRORMESSAGE=qbs_new(0,0);
-byte_element_struct *byte_element_7956=NULL;
-if (!byte_element_7956){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7956=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7956=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_580=NULL;
+if (!byte_element_580){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_580=(byte_element_struct*)(mem_static_pointer-12); else byte_element_580=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass7957;
-int16 pass7958;
-int16 pass7959;
-int16 pass7960;
+int16 pass581;
+int16 pass582;
+int16 pass583;
+int16 pass584;

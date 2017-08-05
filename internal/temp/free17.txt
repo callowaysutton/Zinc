@@ -1,5 +1,5 @@
-if(oldstr7949){
-if(oldstr7949->fixed)qbs_set(oldstr7949,_SUB_SETCAPTION_STRING_TEMPCAPTION);
+if(oldstr573){
+if(oldstr573->fixed)qbs_set(oldstr573,_SUB_SETCAPTION_STRING_TEMPCAPTION);
 qbs_free(_SUB_SETCAPTION_STRING_TEMPCAPTION);
 }
 qbs_free(_SUB_SETCAPTION_STRING_NEWCAPTION);

@@ -1,20 +1,9 @@
-qbs *_FUNC_RAWTEXT_STRING_RAWTEXT=NULL;
-if (!_FUNC_RAWTEXT_STRING_RAWTEXT)_FUNC_RAWTEXT_STRING_RAWTEXT=qbs_new(0,0);
-qbs *_FUNC_RAWTEXT_STRING_T=NULL;
-if (!_FUNC_RAWTEXT_STRING_T)_FUNC_RAWTEXT_STRING_T=qbs_new(0,0);
-qbs *_FUNC_RAWTEXT_STRING_C=NULL;
-if (!_FUNC_RAWTEXT_STRING_C)_FUNC_RAWTEXT_STRING_C=qbs_new(0,0);
-int16 *_FUNC_RAWTEXT_INTEGER_I=NULL;
-if(_FUNC_RAWTEXT_INTEGER_I==NULL){
-_FUNC_RAWTEXT_INTEGER_I=(int16*)mem_static_malloc(2);
-*_FUNC_RAWTEXT_INTEGER_I=0;
+ptrszint *_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=NULL;
+if(_FUNC_GLH_RGBA_OFFSET_GLH_RGBA==NULL){
+_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=(ptrszint*)mem_static_malloc(8);
+*_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=0;
 }
-int32 fornext_value7907;
-int32 fornext_finalvalue7907;
-int32 fornext_step7907;
-uint8 fornext_step_negative7907;
-byte_element_struct *byte_element_7908=NULL;
-if (!byte_element_7908){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7908=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7908=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_21=NULL;
+if (!byte_element_21){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_21=(byte_element_struct*)(mem_static_pointer-12); else byte_element_21=(byte_element_struct*)mem_static_malloc(12);
 }
-static qbs *sc_7909=qbs_new(0,0);

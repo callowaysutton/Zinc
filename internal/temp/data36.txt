@@ -1,12 +1,12 @@
-qbs*oldstr7999=NULL;
+qbs*oldstr623=NULL;
 if(_SUB_REPLACEITEM_STRING_NEWTEXT->tmp||_SUB_REPLACEITEM_STRING_NEWTEXT->fixed||_SUB_REPLACEITEM_STRING_NEWTEXT->readonly){
-oldstr7999=_SUB_REPLACEITEM_STRING_NEWTEXT;
-if (oldstr7999->cmem_descriptor){
-_SUB_REPLACEITEM_STRING_NEWTEXT=qbs_new_cmem(oldstr7999->len,0);
+oldstr623=_SUB_REPLACEITEM_STRING_NEWTEXT;
+if (oldstr623->cmem_descriptor){
+_SUB_REPLACEITEM_STRING_NEWTEXT=qbs_new_cmem(oldstr623->len,0);
 }else{
-_SUB_REPLACEITEM_STRING_NEWTEXT=qbs_new(oldstr7999->len,0);
+_SUB_REPLACEITEM_STRING_NEWTEXT=qbs_new(oldstr623->len,0);
 }
-memcpy(_SUB_REPLACEITEM_STRING_NEWTEXT->chr,oldstr7999->chr,oldstr7999->len);
+memcpy(_SUB_REPLACEITEM_STRING_NEWTEXT->chr,oldstr623->chr,oldstr623->len);
 }
 void *_SUB_REPLACEITEM_UDT_THIS=NULL;
 if(_SUB_REPLACEITEM_UDT_THIS==NULL){
@@ -27,7 +27,7 @@ _SUB_REPLACEITEM_LONG_FINDLF=(int32*)mem_static_malloc(4);
 }
 qbs *_SUB_REPLACEITEM_STRING_TEMPCAPTION=NULL;
 if (!_SUB_REPLACEITEM_STRING_TEMPCAPTION)_SUB_REPLACEITEM_STRING_TEMPCAPTION=qbs_new(0,0);
-byte_element_struct *byte_element_8000=NULL;
-if (!byte_element_8000){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8000=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8000=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_624=NULL;
+if (!byte_element_624){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_624=(byte_element_struct*)(mem_static_pointer-12); else byte_element_624=(byte_element_struct*)mem_static_malloc(12);
 }

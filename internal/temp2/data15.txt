@@ -3,15 +3,15 @@ if(_FUNC___UI_NEWCONTROL_SINGLE___UI_NEWCONTROL==NULL){
 _FUNC___UI_NEWCONTROL_SINGLE___UI_NEWCONTROL=(float*)mem_static_malloc(4);
 *_FUNC___UI_NEWCONTROL_SINGLE___UI_NEWCONTROL=0;
 }
-qbs*oldstr2781=NULL;
+qbs*oldstr3487=NULL;
 if(_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME->tmp||_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME->fixed||_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME->readonly){
-oldstr2781=_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME;
-if (oldstr2781->cmem_descriptor){
-_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME=qbs_new_cmem(oldstr2781->len,0);
+oldstr3487=_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME;
+if (oldstr3487->cmem_descriptor){
+_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME=qbs_new_cmem(oldstr3487->len,0);
 }else{
-_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME=qbs_new(oldstr2781->len,0);
+_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME=qbs_new(oldstr3487->len,0);
 }
-memcpy(_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME->chr,oldstr2781->chr,oldstr2781->len);
+memcpy(_FUNC___UI_NEWCONTROL_STRING_CONTROLNAME->chr,oldstr3487->chr,oldstr3487->len);
 }
 int32 *_FUNC___UI_NEWCONTROL_LONG_NEXTSLOT=NULL;
 if(_FUNC___UI_NEWCONTROL_LONG_NEXTSLOT==NULL){
@@ -35,19 +35,19 @@ if(_FUNC___UI_NEWCONTROL_LONG_TEMPCANVAS==NULL){
 _FUNC___UI_NEWCONTROL_LONG_TEMPCANVAS=(int32*)mem_static_malloc(4);
 *_FUNC___UI_NEWCONTROL_LONG_TEMPCANVAS=0;
 }
-int64 fornext_value2784;
-int64 fornext_finalvalue2784;
-int64 fornext_step2784;
-uint8 fornext_step_negative2784;
-int8 pass2785;
-int8 pass2786;
-int8 pass2787;
-int8 pass2788;
-int8 pass2789;
-int8 pass2790;
-int8 pass2791;
-int8 pass2792;
-int8 pass2793;
-int8 pass2794;
-int16 pass2795;
-int16 pass2796;
+int64 fornext_value3490;
+int64 fornext_finalvalue3490;
+int64 fornext_step3490;
+uint8 fornext_step_negative3490;
+int8 pass3491;
+int8 pass3492;
+int8 pass3493;
+int8 pass3494;
+int8 pass3495;
+int8 pass3496;
+int8 pass3497;
+int8 pass3498;
+int8 pass3499;
+int8 pass3500;
+int16 pass3501;
+int16 pass3502;

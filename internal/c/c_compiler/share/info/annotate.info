@@ -1,13 +1,12 @@
 This is annotate.info, produced by makeinfo version 4.13 from
-/home/drangon/work/mingw-w64-dgn_32/source/gdb/gdb/doc/annotate.texinfo.
+/home/drangon/work/mingw-w64-dgn/source/gdb-7.12.1/gdb/doc/annotate.texinfo.
 
 INFO-DIR-SECTION Software development
 START-INFO-DIR-ENTRY
 * Annotate: (annotate).                 The obsolete annotation interface.
 END-INFO-DIR-ENTRY
 
-   Copyright (C) 1994-1995, 2000-2001, 2003-2005, 2007-2012 Free
-Software Foundation, Inc.
+   Copyright (C) 1994-2017 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3 or
@@ -18,8 +17,7 @@ Free Documentation License".
 
    This file documents GDB's obsolete annotations.
 
-   Copyright (C) 1994-1995, 2000-2001, 2003-2005, 2007-2012 Free
-Software Foundation, Inc.
+   Copyright (C) 1994-2017 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3 or
@@ -686,8 +684,8 @@ The following annotations report thread related changes of state.
 
 File: annotate.info,  Node: GNU Free Documentation License,  Prev: Multi-threaded Apps,  Up: Top
 
-Appendix A GNU Free Documentation License
-*****************************************
+¸½Â¼ A  GNU Free Documentation License
+**************************************
 
                      Version 1.3, 3 November 2008
 
@@ -1172,21 +1170,21 @@ permit their use in free software.
 
 
 Tag Table:
-Node: Top1292
-Node: Annotations Overview2462
-Node: Limitations4261
-Node: Migrating to GDB/MI6846
-Node: Server Prefix7229
-Node: Value Annotations7875
-Node: Frame Annotations11045
-Node: Displays14944
-Node: Prompting15975
-Node: Errors17478
-Node: Breakpoint Info18368
-Node: Invalidation19593
-Node: Annotations for Running20072
-Node: Source Annotations21585
-Node: Multi-threaded Apps22531
-Node: GNU Free Documentation License23140
+Node: Top1230
+Node: Annotations Overview2400
+Node: Limitations4199
+Node: Migrating to GDB/MI6784
+Node: Server Prefix7167
+Node: Value Annotations7813
+Node: Frame Annotations10983
+Node: Displays14882
+Node: Prompting15913
+Node: Errors17416
+Node: Breakpoint Info18306
+Node: Invalidation19531
+Node: Annotations for Running20010
+Node: Source Annotations21523
+Node: Multi-threaded Apps22469
+Node: GNU Free Documentation License23078
 
 End Tag Table

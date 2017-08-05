@@ -1,5 +1,9 @@
-uint32 *_FUNC_DARKEN_ULONG_DARKEN=NULL;
-if(_FUNC_DARKEN_ULONG_DARKEN==NULL){
-_FUNC_DARKEN_ULONG_DARKEN=(uint32*)mem_static_malloc(4);
-*_FUNC_DARKEN_ULONG_DARKEN=0;
+ptrszint *_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=NULL;
+if(_FUNC_GLH_RGBA_OFFSET_GLH_RGBA==NULL){
+_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=(ptrszint*)mem_static_malloc(8);
+*_FUNC_GLH_RGBA_OFFSET_GLH_RGBA=0;
+}
+byte_element_struct *byte_element_49=NULL;
+if (!byte_element_49){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_49=(byte_element_struct*)(mem_static_pointer-12); else byte_element_49=(byte_element_struct*)mem_static_malloc(12);
 }

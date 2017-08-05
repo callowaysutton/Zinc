@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/drangon/work/mingw-w64-dgn_32/target/lib/../lib'
+libdir='/home/drangon/work/mingw-w64-dgn/target/lib/../lib'

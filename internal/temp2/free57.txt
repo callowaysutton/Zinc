@@ -1,4 +1,4 @@
-if(oldstr2910){
-if(oldstr2910->fixed)qbs_set(oldstr2910,_FUNC_FROMCP1252_STRING_SOURCE);
+if(oldstr3616){
+if(oldstr3616->fixed)qbs_set(oldstr3616,_FUNC_FROMCP1252_STRING_SOURCE);
 qbs_free(_FUNC_FROMCP1252_STRING_SOURCE);
 }

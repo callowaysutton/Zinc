@@ -1,5 +1,5 @@
-if(oldstr2765){
-if(oldstr2765->fixed)qbs_set(oldstr2765,_FUNC___UI_GETID_STRING_CONTROLNAME);
+if(oldstr3471){
+if(oldstr3471->fixed)qbs_set(oldstr3471,_FUNC___UI_GETID_STRING_CONTROLNAME);
 qbs_free(_FUNC___UI_GETID_STRING_CONTROLNAME);
 }
 qbs_free(_FUNC___UI_GETID_STRING_CONTROLSEARCH);

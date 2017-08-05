@@ -13,7 +13,7 @@ if(_FUNC___UI_COUNTLINES_LONG_TOTALLINES==NULL){
 _FUNC___UI_COUNTLINES_LONG_TOTALLINES=(int32*)mem_static_malloc(4);
 *_FUNC___UI_COUNTLINES_LONG_TOTALLINES=0;
 }
-byte_element_struct *byte_element_7993=NULL;
-if (!byte_element_7993){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_7993=(byte_element_struct*)(mem_static_pointer-12); else byte_element_7993=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_617=NULL;
+if (!byte_element_617){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_617=(byte_element_struct*)(mem_static_pointer-12); else byte_element_617=(byte_element_struct*)mem_static_malloc(12);
 }

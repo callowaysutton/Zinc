@@ -15,9 +15,9 @@ _SUB___UI_DRAWPROGRESSBAR_INTEGER_CAPTIONINDENT=(int16*)mem_static_malloc(2);
 }
 qbs *_SUB___UI_DRAWPROGRESSBAR_STRING_TEMPCAPTION=NULL;
 if (!_SUB___UI_DRAWPROGRESSBAR_STRING_TEMPCAPTION)_SUB___UI_DRAWPROGRESSBAR_STRING_TEMPCAPTION=qbs_new(0,0);
-byte_element_struct *byte_element_8083=NULL;
-if (!byte_element_8083){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8083=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8083=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_707=NULL;
+if (!byte_element_707){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_707=(byte_element_struct*)(mem_static_pointer-12); else byte_element_707=(byte_element_struct*)mem_static_malloc(12);
 }
 qbs *_SUB___UI_DRAWPROGRESSBAR_STRING_PROGRESSSTRING=NULL;
 if (!_SUB___UI_DRAWPROGRESSBAR_STRING_PROGRESSSTRING)_SUB___UI_DRAWPROGRESSBAR_STRING_PROGRESSSTRING=qbs_new(0,0);
@@ -26,10 +26,10 @@ if(_SUB___UI_DRAWPROGRESSBAR_INTEGER_REPLACECODE==NULL){
 _SUB___UI_DRAWPROGRESSBAR_INTEGER_REPLACECODE=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWPROGRESSBAR_INTEGER_REPLACECODE=0;
 }
-byte_element_struct *byte_element_8084=NULL;
-if (!byte_element_8084){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8084=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8084=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_708=NULL;
+if (!byte_element_708){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_708=(byte_element_struct*)(mem_static_pointer-12); else byte_element_708=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8085;
-int16 pass8086;
-int16 pass8087;
+int16 pass709;
+int16 pass710;
+int16 pass711;

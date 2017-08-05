@@ -1,1 +1,0 @@
-qbs_free(_FUNC___UI_MASKTOTEXT_STRING_TEXT);

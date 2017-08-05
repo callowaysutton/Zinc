@@ -1,16 +1,16 @@
-This is the file .../info/dir, which contains the
-topmost node of the Info hierarchy, called (dir)Top.
-The first time you invoke Info you start off looking at this node.
+这是文件 .../info/dir，它含有 Info 层次
+结构的最顶层节点，称为 (dir)Top。
+您第一次调用 Info 您将从该节点开始。
 
-File: dir,	Node: Top	This is the top of the INFO tree
+File: dir,	Node: Top	这是 INFO 树的顶
 
-  This (the Directory node) gives a menu of major topics.
-  Typing "q" exits, "?" lists all Info commands, "d" returns here,
-  "h" gives a primer for first-timers,
-  "mEmacs<Return>" visits the Emacs manual, etc.
+  这里 (the Directory node) 给出了主要主题的菜单。
+  输入“q”将退出，输入“?”将列举所有 Info 命令，输入
+  “d”将返回这里。输入“h”将给初次使用的用户一个摘要，
+  输入“mEmacs<Return>”将访问 Emacs 手册，等等。
 
-  In Emacs, you can click mouse button 2 on a menu item or cross reference
-  to select it.
+  在 Emacs中，您可以在菜单项目或交叉引用上点击鼠标右键以
+  选择它。
 
 * Menu:
 
@@ -58,7 +58,6 @@ Software development
 * Cpplib: (cppinternals).       Cpplib internals.
 * Gas: (as).                    The GNU assembler.
 * Gdb: (gdb).                   The GNU debugger.
-* Gdb-Internals: (gdbint).      The GNU debugger's internals.
 * Ld: (ld).                     The GNU linker.
 * Make: (make).                 Remake files automatically.
 * Stabs: (stabs).               The "stabs" debugging information format.
@@ -66,4 +65,10 @@ Software development
 * gcc: (gcc).                   The GNU Compiler Collection.
 * gccinstall: (gccinstall).     Installing the GNU Compiler Collection.
 * gccint: (gccint).             Internals of the GNU Compiler Collection.
+* gcov: (gcc) Gcov.             `gcov'--a test coverage program.
+* gcov-dump: (gcc) Gcov-dump.   `gcov-dump'--an offline gcda and gcno profile 
+                                  dump tool.
+* gcov-tool: (gcc) Gcov-tool.   `gcov-tool'--an offline gcda profile 
+                                  processing program.
+* gdbserver: (gdb) Server.      The GNU debugging server.
 * gprof: (gprof).               Profiling your program's execution

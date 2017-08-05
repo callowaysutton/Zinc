@@ -13,14 +13,14 @@ if(_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE==NULL){
 _SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE=(int8*)mem_static_malloc(1);
 *_SUB___UI_DRAWTRACKBAR_BYTE_TEMPCONTROLSTATE=0;
 }
-uint32 pass8088;
-int16 pass8089;
-int64 fornext_value8091;
-int64 fornext_finalvalue8091;
-int64 fornext_step8091;
-uint8 fornext_step_negative8091;
-long double pass8092;
-long double pass8093;
-long double pass8094;
-long double pass8095;
-long double pass8096;
+uint32 pass712;
+int16 pass713;
+int64 fornext_value715;
+int64 fornext_finalvalue715;
+int64 fornext_step715;
+uint8 fornext_step_negative715;
+long double pass716;
+long double pass717;
+long double pass718;
+long double pass719;
+long double pass720;

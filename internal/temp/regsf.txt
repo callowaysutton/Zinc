@@ -1,10 +1,1 @@
-#include "..\\..\\timers.h"
-typedef void CUSTOMCALL_SUB___UI_MEMCOPY(ptrszint,ptrszint,int32);
-CUSTOMCALL_SUB___UI_MEMCOPY *SUB___UI_MEMCOPY=NULL;
-#include "..\\..\\falcon.h"
-int32 FUNC_USPACING();
-void SUB___UI_INTERNALMENUS();
-void SUB___UI_INIT();
-int8 FUNC___UI_GETPROPERMOUSEBUTTON(int8*_FUNC___UI_GETPROPERMOUSEBUTTON_BYTE_WHICH);
-void SUB___UI_PROCESSINPUT();
-void SUB___UI_UPDATEDISPLAY();
+void SUB_VKUPDATE();

@@ -1,12 +1,12 @@
-qbs*oldstr2800=NULL;
+qbs*oldstr3506=NULL;
 if(_SUB_SETCAPTION_STRING_TEMPCAPTION->tmp||_SUB_SETCAPTION_STRING_TEMPCAPTION->fixed||_SUB_SETCAPTION_STRING_TEMPCAPTION->readonly){
-oldstr2800=_SUB_SETCAPTION_STRING_TEMPCAPTION;
-if (oldstr2800->cmem_descriptor){
-_SUB_SETCAPTION_STRING_TEMPCAPTION=qbs_new_cmem(oldstr2800->len,0);
+oldstr3506=_SUB_SETCAPTION_STRING_TEMPCAPTION;
+if (oldstr3506->cmem_descriptor){
+_SUB_SETCAPTION_STRING_TEMPCAPTION=qbs_new_cmem(oldstr3506->len,0);
 }else{
-_SUB_SETCAPTION_STRING_TEMPCAPTION=qbs_new(oldstr2800->len,0);
+_SUB_SETCAPTION_STRING_TEMPCAPTION=qbs_new(oldstr3506->len,0);
 }
-memcpy(_SUB_SETCAPTION_STRING_TEMPCAPTION->chr,oldstr2800->chr,oldstr2800->len);
+memcpy(_SUB_SETCAPTION_STRING_TEMPCAPTION->chr,oldstr3506->chr,oldstr3506->len);
 }
 int32 *_SUB_SETCAPTION_LONG_I=NULL;
 if(_SUB_SETCAPTION_LONG_I==NULL){
@@ -42,13 +42,13 @@ if(_SUB_SETCAPTION_LONG_PREVDEST==NULL){
 _SUB_SETCAPTION_LONG_PREVDEST=(int32*)mem_static_malloc(4);
 *_SUB_SETCAPTION_LONG_PREVDEST=0;
 }
-byte_element_struct *byte_element_2801=NULL;
-if (!byte_element_2801){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2801=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2801=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3507=NULL;
+if (!byte_element_3507){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3507=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3507=(byte_element_struct*)mem_static_malloc(12);
 }
-int64 fornext_value2803;
-int64 fornext_finalvalue2803;
-int64 fornext_step2803;
-uint8 fornext_step_negative2803;
-int8 pass2804;
-int32 pass2805;
+int64 fornext_value3509;
+int64 fornext_finalvalue3509;
+int64 fornext_step3509;
+uint8 fornext_step_negative3509;
+int8 pass3510;
+int32 pass3511;

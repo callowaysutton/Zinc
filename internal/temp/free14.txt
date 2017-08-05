@@ -1,9 +1,9 @@
-if(oldstr7919){
-if(oldstr7919->fixed)qbs_set(oldstr7919,_FUNC_SETFONT_STRING_NEWFONTFILE);
+if(oldstr543){
+if(oldstr543->fixed)qbs_set(oldstr543,_FUNC_SETFONT_STRING_NEWFONTFILE);
 qbs_free(_FUNC_SETFONT_STRING_NEWFONTFILE);
 }
-if(oldstr7920){
-if(oldstr7920->fixed)qbs_set(oldstr7920,_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES);
+if(oldstr544){
+if(oldstr544->fixed)qbs_set(oldstr544,_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES);
 qbs_free(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES);
 }
 qbs_free(_FUNC_SETFONT_STRING_TEMP);

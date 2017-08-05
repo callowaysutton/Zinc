@@ -20,5 +20,5 @@ if(_SUB___UI_DRAWCHECKBOX_SINGLE_I==NULL){
 _SUB___UI_DRAWCHECKBOX_SINGLE_I=(float*)mem_static_malloc(4);
 *_SUB___UI_DRAWCHECKBOX_SINGLE_I=0;
 }
-int16 pass8081;
-int16 pass8082;
+int16 pass705;
+int16 pass706;

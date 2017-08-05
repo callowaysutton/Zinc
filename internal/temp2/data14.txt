@@ -3,25 +3,25 @@ if(_FUNC_SETFONT_LONG_SETFONT==NULL){
 _FUNC_SETFONT_LONG_SETFONT=(int32*)mem_static_malloc(4);
 *_FUNC_SETFONT_LONG_SETFONT=0;
 }
-qbs*oldstr2770=NULL;
+qbs*oldstr3476=NULL;
 if(_FUNC_SETFONT_STRING_NEWFONTFILE->tmp||_FUNC_SETFONT_STRING_NEWFONTFILE->fixed||_FUNC_SETFONT_STRING_NEWFONTFILE->readonly){
-oldstr2770=_FUNC_SETFONT_STRING_NEWFONTFILE;
-if (oldstr2770->cmem_descriptor){
-_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new_cmem(oldstr2770->len,0);
+oldstr3476=_FUNC_SETFONT_STRING_NEWFONTFILE;
+if (oldstr3476->cmem_descriptor){
+_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new_cmem(oldstr3476->len,0);
 }else{
-_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new(oldstr2770->len,0);
+_FUNC_SETFONT_STRING_NEWFONTFILE=qbs_new(oldstr3476->len,0);
 }
-memcpy(_FUNC_SETFONT_STRING_NEWFONTFILE->chr,oldstr2770->chr,oldstr2770->len);
+memcpy(_FUNC_SETFONT_STRING_NEWFONTFILE->chr,oldstr3476->chr,oldstr3476->len);
 }
-qbs*oldstr2771=NULL;
+qbs*oldstr3477=NULL;
 if(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->tmp||_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->fixed||_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->readonly){
-oldstr2771=_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES;
-if (oldstr2771->cmem_descriptor){
-_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new_cmem(oldstr2771->len,0);
+oldstr3477=_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES;
+if (oldstr3477->cmem_descriptor){
+_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new_cmem(oldstr3477->len,0);
 }else{
-_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new(oldstr2771->len,0);
+_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES=qbs_new(oldstr3477->len,0);
 }
-memcpy(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->chr,oldstr2771->chr,oldstr2771->len);
+memcpy(_FUNC_SETFONT_STRING_TEMPNEWFONTATTRIBUTES->chr,oldstr3477->chr,oldstr3477->len);
 }
 int32 *_FUNC_SETFONT_LONG_NEXTSLOT=NULL;
 if(_FUNC_SETFONT_LONG_NEXTSLOT==NULL){
@@ -37,31 +37,31 @@ qbs *_FUNC_SETFONT_STRING_TEMP=NULL;
 if (!_FUNC_SETFONT_STRING_TEMP)_FUNC_SETFONT_STRING_TEMP=qbs_new(0,0);
 qbs *_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES=NULL;
 if (!_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES)_FUNC_SETFONT_STRING_NEWFONTATTRIBUTES=qbs_new(0,0);
-int64 fornext_value2773;
-int64 fornext_finalvalue2773;
-int64 fornext_step2773;
-uint8 fornext_step_negative2773;
-int64 fornext_value2775;
-int64 fornext_finalvalue2775;
-int64 fornext_step2775;
-uint8 fornext_step_negative2775;
-byte_element_struct *byte_element_2776=NULL;
-if (!byte_element_2776){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2776=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2776=(byte_element_struct*)mem_static_malloc(12);
+int64 fornext_value3479;
+int64 fornext_finalvalue3479;
+int64 fornext_step3479;
+uint8 fornext_step_negative3479;
+int64 fornext_value3481;
+int64 fornext_finalvalue3481;
+int64 fornext_step3481;
+uint8 fornext_step_negative3481;
+byte_element_struct *byte_element_3482=NULL;
+if (!byte_element_3482){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3482=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3482=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_2777=NULL;
-if (!byte_element_2777){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2777=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2777=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3483=NULL;
+if (!byte_element_3483){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3483=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3483=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_2778=NULL;
-if (!byte_element_2778){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2778=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2778=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3484=NULL;
+if (!byte_element_3484){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3484=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3484=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_2779=NULL;
-if (!byte_element_2779){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2779=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2779=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3485=NULL;
+if (!byte_element_3485){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3485=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3485=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_2780=NULL;
-if (!byte_element_2780){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2780=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2780=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_3486=NULL;
+if (!byte_element_3486){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3486=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3486=(byte_element_struct*)mem_static_malloc(12);
 }

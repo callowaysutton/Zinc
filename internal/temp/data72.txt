@@ -20,8 +20,8 @@ if(_SUB___UI_DRAWMENUBAR_INTEGER_I==NULL){
 _SUB___UI_DRAWMENUBAR_INTEGER_I=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWMENUBAR_INTEGER_I=0;
 }
-int16 pass8144;
-int16 pass8145;
-int16 pass8146;
-int16 pass8147;
-int16 pass8148;
+int16 pass768;
+int16 pass769;
+int16 pass770;
+int16 pass771;
+int16 pass772;

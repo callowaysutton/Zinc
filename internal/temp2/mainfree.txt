@@ -1,3 +1,4 @@
+qbs_free(__STRING_VAR);
 if (__ARRAY_STRING_CAPTION[2]&1){
 tmp_long=__ARRAY_STRING_CAPTION[5];
 while(tmp_long--) qbs_free((qbs*)((uint64*)(__ARRAY_STRING_CAPTION[0]))[tmp_long]);

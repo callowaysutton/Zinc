@@ -15,39 +15,39 @@ _SUB___UI_DRAWTEXTBOX_LONG_I=(int32*)mem_static_malloc(4);
 }
 qbs *_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION=NULL;
 if (!_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION)_SUB___UI_DRAWTEXTBOX_STRING_TEMPCAPTION=qbs_new(0,0);
-byte_element_struct *byte_element_8097=NULL;
-if (!byte_element_8097){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8097=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8097=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_721=NULL;
+if (!byte_element_721){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_721=(byte_element_struct*)(mem_static_pointer-12); else byte_element_721=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8098;
+int16 pass722;
 qbs *_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT=NULL;
 if (!_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT)_SUB___UI_DRAWTEXTBOX_STRING_THISTEMPTEXT=qbs_new(0,0);
-byte_element_struct *byte_element_8099=NULL;
-if (!byte_element_8099){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8099=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8099=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_723=NULL;
+if (!byte_element_723){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_723=(byte_element_struct*)(mem_static_pointer-12); else byte_element_723=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_8100=NULL;
-if (!byte_element_8100){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8100=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8100=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_724=NULL;
+if (!byte_element_724){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_724=(byte_element_struct*)(mem_static_pointer-12); else byte_element_724=(byte_element_struct*)mem_static_malloc(12);
 }
-byte_element_struct *byte_element_8101=NULL;
-if (!byte_element_8101){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8101=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8101=(byte_element_struct*)mem_static_malloc(12);
+byte_element_struct *byte_element_725=NULL;
+if (!byte_element_725){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_725=(byte_element_struct*)(mem_static_pointer-12); else byte_element_725=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8102;
-int16 pass8103;
-int16 pass8104;
-static qbs *sc_8105=qbs_new(0,0);
-byte_element_struct *byte_element_8106=NULL;
-if (!byte_element_8106){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8106=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8106=(byte_element_struct*)mem_static_malloc(12);
+int16 pass726;
+int16 pass727;
+int16 pass728;
+static qbs *sc_729=qbs_new(0,0);
+byte_element_struct *byte_element_730=NULL;
+if (!byte_element_730){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_730=(byte_element_struct*)(mem_static_pointer-12); else byte_element_730=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8107;
-byte_element_struct *byte_element_8108=NULL;
-if (!byte_element_8108){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8108=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8108=(byte_element_struct*)mem_static_malloc(12);
+int16 pass731;
+byte_element_struct *byte_element_732=NULL;
+if (!byte_element_732){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_732=(byte_element_struct*)(mem_static_pointer-12); else byte_element_732=(byte_element_struct*)mem_static_malloc(12);
 }
-int16 pass8109;
+int16 pass733;
 int32 *_SUB___UI_DRAWTEXTBOX_LONG_THISLINE=NULL;
 if(_SUB___UI_DRAWTEXTBOX_LONG_THISLINE==NULL){
 _SUB___UI_DRAWTEXTBOX_LONG_THISLINE=(int32*)mem_static_malloc(4);
@@ -80,11 +80,11 @@ if(_SUB___UI_DRAWTEXTBOX_LONG_S2==NULL){
 _SUB___UI_DRAWTEXTBOX_LONG_S2=(int32*)mem_static_malloc(4);
 *_SUB___UI_DRAWTEXTBOX_LONG_S2=0;
 }
-int16 pass8110;
-int16 pass8111;
-byte_element_struct *byte_element_8112=NULL;
-if (!byte_element_8112){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_8112=(byte_element_struct*)(mem_static_pointer-12); else byte_element_8112=(byte_element_struct*)mem_static_malloc(12);
+int16 pass734;
+int16 pass735;
+byte_element_struct *byte_element_736=NULL;
+if (!byte_element_736){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_736=(byte_element_struct*)(mem_static_pointer-12); else byte_element_736=(byte_element_struct*)mem_static_malloc(12);
 }
 int16 *_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE=NULL;
 if(_SUB___UI_DRAWTEXTBOX_INTEGER_THISLINE==NULL){
@@ -111,9 +111,9 @@ if(_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT==NULL){
 _SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT=(int16*)mem_static_malloc(2);
 *_SUB___UI_DRAWTEXTBOX_INTEGER_CAPTIONLEFT=0;
 }
-int64 fornext_value8115;
-int64 fornext_finalvalue8115;
-int64 fornext_step8115;
-uint8 fornext_step_negative8115;
-int8 pass8116;
-int8 pass8117;
+int64 fornext_value739;
+int64 fornext_finalvalue739;
+int64 fornext_step739;
+uint8 fornext_step_negative739;
+int8 pass740;
+int8 pass741;

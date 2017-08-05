@@ -1,14 +1,14 @@
 qbs *_FUNC_UTF8_STRING_UTF8=NULL;
 if (!_FUNC_UTF8_STRING_UTF8)_FUNC_UTF8_STRING_UTF8=qbs_new(0,0);
-qbs*oldstr2913=NULL;
+qbs*oldstr3619=NULL;
 if(_FUNC_UTF8_STRING_SOURCE->tmp||_FUNC_UTF8_STRING_SOURCE->fixed||_FUNC_UTF8_STRING_SOURCE->readonly){
-oldstr2913=_FUNC_UTF8_STRING_SOURCE;
-if (oldstr2913->cmem_descriptor){
-_FUNC_UTF8_STRING_SOURCE=qbs_new_cmem(oldstr2913->len,0);
+oldstr3619=_FUNC_UTF8_STRING_SOURCE;
+if (oldstr3619->cmem_descriptor){
+_FUNC_UTF8_STRING_SOURCE=qbs_new_cmem(oldstr3619->len,0);
 }else{
-_FUNC_UTF8_STRING_SOURCE=qbs_new(oldstr2913->len,0);
+_FUNC_UTF8_STRING_SOURCE=qbs_new(oldstr3619->len,0);
 }
-memcpy(_FUNC_UTF8_STRING_SOURCE->chr,oldstr2913->chr,oldstr2913->len);
+memcpy(_FUNC_UTF8_STRING_SOURCE->chr,oldstr3619->chr,oldstr3619->len);
 }
 int32 *_FUNC_UTF8_LONG_I=NULL;
 if(_FUNC_UTF8_LONG_I==NULL){
@@ -17,11 +17,11 @@ _FUNC_UTF8_LONG_I=(int32*)mem_static_malloc(4);
 }
 qbs *_FUNC_UTF8_STRING_DEST=NULL;
 if (!_FUNC_UTF8_STRING_DEST)_FUNC_UTF8_STRING_DEST=qbs_new(0,0);
-int64 fornext_value2915;
-int64 fornext_finalvalue2915;
-int64 fornext_step2915;
-uint8 fornext_step_negative2915;
-byte_element_struct *byte_element_2916=NULL;
-if (!byte_element_2916){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_2916=(byte_element_struct*)(mem_static_pointer-12); else byte_element_2916=(byte_element_struct*)mem_static_malloc(12);
+int64 fornext_value3621;
+int64 fornext_finalvalue3621;
+int64 fornext_step3621;
+uint8 fornext_step_negative3621;
+byte_element_struct *byte_element_3622=NULL;
+if (!byte_element_3622){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3622=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3622=(byte_element_struct*)mem_static_malloc(12);
 }
