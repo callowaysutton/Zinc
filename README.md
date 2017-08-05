@@ -3,7 +3,6 @@ Welcome to Zinc!
 
 Welcome to **Zinc**[^Zinc], a Drag and Drop **or** Text Based programming language for the new comers who want to learn how to program.
 
-Little side note:  <i class="icon-cog"></i> **Settings** dialog.
 
 ----------
 
