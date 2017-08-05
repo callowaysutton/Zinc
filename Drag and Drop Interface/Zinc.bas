@@ -567,7 +567,14 @@ SUB __UI_MouseDown (id AS LONG)
         CASE FileMenuProjectNotes
 
         CASE FileMenuQuit
-            STOP
+            y% = 480
+            FOR x% = 640 TO 1 STEP -20
+                y% = y% - 15: IF y% < 1 THEN y% = 1
+                SCREEN _NEWIMAGE(x%, y%, 256)
+                _LIMIT 15
+            NEXT
+            SYSTEM
+
         CASE EditMenuUndelete
 
         CASE EditMenuStartSingleStepping
