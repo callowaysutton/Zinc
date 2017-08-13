@@ -1,9 +1,15 @@
 Welcome to Zinc!
 ===================
 
-Welcome to **Zinc**[^Zinc], a Drag and Drop **or** Text Based programming language for the new comers who want to learn how to program.
+Welcome to **Zinc**, a Drag and Drop **or** Text Based programming language for the new comers who want to learn how to program.
 
 Little side note:  <i class="icon-cog"></i> **Settings** dialog.
+
+----------
+
+<h2><center><b> BIG UPDATE UPCOMING! </b></center></h2>
+<h3> ZINC WILL BE CHANGING THE LANGUAGE IT IS BEING WRITTEN IT DUE TO LACK OF 'RESOURCES'. IT WILL BE MADE IN <a href "https://ring-lang.net/> RING </a>
+
 
 ----------
 
