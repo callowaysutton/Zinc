@@ -1,7 +1,7 @@
 
 
 <h1><center><b> BIG UPDATE UPCOMING! </b></center></h1>
-<h3> ZINC WILL BE CHANGING THE LANGUAGE IT IS BEING WRITTEN IT DUE TO LACK OF 'RESOURCES'. <p>The released version will be created in the GoDot engine <a href "https://godotengine.org/"> GoDot!</a></p>
+<h3> ZINC WILL BE CHANGING THE LANGUAGE IT IS BEING WRITTEN IT DUE TO LACK OF 'RESOURCES'. <p>The released version will be created in the <a href "https://godotengine.org/"> GoDot engine </a></p>
 
 ----------
 
